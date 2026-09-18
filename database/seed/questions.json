@@ -1,0 +1,67 @@
+[
+  {
+    "question": "¿Quién hace sonar normalmente la señal de tiempo muerto?",
+    "optionA": "El anotador",
+    "optionB": "El comisario",
+    "optionC": "El árbitro principal",
+    "optionD": "El delegado de campo",
+    "correctOption": "A",
+    "reference": "Art. 18.3 RJ",
+    "category": "Tiempos muertos",
+    "difficulty": "facil",
+    "source": "test",
+    "sourcePage": 1
+  },
+  {
+    "question": "¿Cuántos tiempos muertos se conceden por cada prórroga?",
+    "optionA": "Uno",
+    "optionB": "Dos",
+    "optionC": "Tres",
+    "optionD": "Ninguno",
+    "correctOption": "A",
+    "reference": "Art. 18.1 RJ",
+    "category": "Tiempos muertos",
+    "difficulty": "media",
+    "source": "test",
+    "sourcePage": 1
+  },
+  {
+    "question": "¿Cuándo se reinicia el reloj de lanzamiento a 14 segundos?",
+    "optionA": "Cuando el equipo atacante mantiene la posesión tras un rebote ofensivo",
+    "optionB": "Siempre a 24",
+    "optionC": "Nunca se reinicia a 14",
+    "optionD": "Solo en el último minuto",
+    "correctOption": "A",
+    "reference": "Art. 29 RJ",
+    "category": "Reloj de lanzamiento",
+    "difficulty": "media",
+    "source": "test",
+    "sourcePage": 1
+  },
+  {
+    "question": "¿Quién puede solicitar un tiempo muerto?",
+    "optionA": "El entrenador, o el ayudante si el entrenador no está en el terreno",
+    "optionB": "Cualquier jugador en cualquier momento",
+    "optionC": "El anotador",
+    "optionD": "El público",
+    "correctOption": "A",
+    "reference": "Art. 18.2 RJ",
+    "category": "Tiempos muertos",
+    "difficulty": "facil",
+    "source": "test",
+    "sourcePage": 1
+  },
+  {
+    "question": "¿Qué ocurre si el operador de 24 segundos comete un error evidente?",
+    "optionA": "Los árbitros pueden corregirlo aplicando el procedimiento de corrección de errores",
+    "optionB": "No se puede corregir nunca",
+    "optionC": "Se repite todo el cuarto",
+    "optionD": "Se descalifica al operador",
+    "correctOption": "A",
+    "reference": "Art. 18 RJ",
+    "category": "Reloj de lanzamiento",
+    "difficulty": "dificil",
+    "source": "test",
+    "sourcePage": 1
+  }
+]
