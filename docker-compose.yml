@@ -5,7 +5,11 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpass}
-      MYSQL_DATABASE: ${DB_NAME:-baloncesto_examen}
+      # Fijo a propósito (debe coincidir con el nombre que crea database/schema.sql
+      # y con DB_NAME en backend/.env). No lo hagas variable con DB_NAME aquí: si no
+      # coincidiera con schema.sql, el usuario de la app se quedaría sin permisos
+      # sobre la base de datos real.
+      MYSQL_DATABASE: baloncesto_examen
       MYSQL_USER: ${DB_USER:-baloncesto}
       MYSQL_PASSWORD: ${DB_PASSWORD:-baloncesto}
     ports:

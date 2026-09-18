@@ -1,64 +1,74 @@
-// Convierte el JSON crudo extraído del PDF (question/correctAnswer/distractors)
-// en el formato final de siembra (optionA..D + correctOption), colocando la
-// respuesta correcta en una posición aleatoria entre las 4 opciones.
-import { readFileSync, writeFileSync } from 'node:fs'
+// Fusiona las preguntas Verdadero/Falso generadas automáticamente (a partir de
+// database/seed/raw-vf-result.json) con las preguntas ya presentes en
+// database/seed/questions.json (incluidas las que el usuario haya curado a
+// mano), evitando duplicados por texto de pregunta. NO modifica ni reordena
+// las preguntas ya existentes en questions.json.
+import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const RAW_FILE = path.resolve(__dirname, '../../../database/seed/raw-extracted.json')
-const OUT_FILE = path.resolve(__dirname, '../../../database/seed/questions.json')
+const SEED_DIR = path.resolve(__dirname, '../../../database/seed')
+const RAW_FILE = path.join(SEED_DIR, 'raw-vf-result.json')
+const OUT_FILE = path.join(SEED_DIR, 'questions.json')
 
-const LETTERS = ['A', 'B', 'C', 'D']
+function normalizeKey(text) {
+  return String(text || '').trim().toLowerCase().replace(/\s+/g, ' ')
+}
 
-function shuffle(arr) {
-  const copy = [...arr]
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+function statementToRow(item, source) {
+  return {
+    question_text: item.statement,
+    option_a: 'Verdadero',
+    option_b: 'Falso',
+    option_c: '',
+    option_d: '',
+    correct_option: item.isTrue ? 'a' : 'b',
+    reference: item.reference || '',
+    category: item.category || '',
+    difficulty: item.difficulty || 'media',
+    source: item.source || source,
+    source_page: item.sourcePage ?? null,
   }
-  return copy
 }
 
 function main() {
+  const existing = existsSync(OUT_FILE) ? JSON.parse(readFileSync(OUT_FILE, 'utf-8')) : []
+  if (!existsSync(RAW_FILE)) {
+    throw new Error(`No existe ${RAW_FILE}. Genera primero el resultado del workflow de conversión a V/F.`)
+  }
   const raw = JSON.parse(readFileSync(RAW_FILE, 'utf-8'))
-  const items = [...(raw.oficiales || []), ...(raw.normas || [])]
 
-  const seen = new Set()
-  const output = []
+  const seen = new Set(existing.map((q) => normalizeKey(q.question_text)))
+  const merged = [...existing]
 
-  for (const item of items) {
-    if (!item.question || !item.correctAnswer || !Array.isArray(item.distractors) || item.distractors.length !== 3) {
+  let added = 0
+  let skippedDupe = 0
+  let skippedInvalid = 0
+
+  const candidates = [
+    ...(raw.oficialesVF || []).map((s) => statementToRow(s, 'oficiales')),
+    ...(raw.normasVF || []).map((s) => statementToRow(s, 'normas_2026')),
+  ]
+
+  for (const row of candidates) {
+    if (!row.question_text || !row.correct_option) {
+      skippedInvalid += 1
       continue
     }
-    const key = item.question.trim().toLowerCase()
-    if (seen.has(key)) continue
+    const key = normalizeKey(row.question_text)
+    if (seen.has(key)) {
+      skippedDupe += 1
+      continue
+    }
     seen.add(key)
-
-    const options = shuffle([
-      { text: item.correctAnswer, correct: true },
-      ...item.distractors.map((d) => ({ text: d, correct: false })),
-    ])
-
-    const correctIndex = options.findIndex((o) => o.correct)
-
-    output.push({
-      question: item.question,
-      optionA: options[0].text,
-      optionB: options[1].text,
-      optionC: options[2].text,
-      optionD: options[3].text,
-      correctOption: LETTERS[correctIndex],
-      reference: item.reference || '',
-      category: item.category || '',
-      difficulty: item.difficulty || 'media',
-      source: item.source || 'oficiales',
-      sourcePage: item.sourcePage || null,
-    })
+    merged.push(row)
+    added += 1
   }
 
-  writeFileSync(OUT_FILE, JSON.stringify(output, null, 2), 'utf-8')
-  console.log(`Escritas ${output.length} preguntas en ${OUT_FILE} (de ${items.length} extraídas, ${items.length - output.length} descartadas por duplicado/incompletas)`)
+  writeFileSync(OUT_FILE, JSON.stringify(merged, null, 2), 'utf-8')
+  console.log(`questions.json: ${existing.length} ya existentes + ${added} nuevas = ${merged.length} totales.`)
+  console.log(`Descartadas: ${skippedDupe} duplicadas, ${skippedInvalid} inválidas.`)
 }
 
 main()

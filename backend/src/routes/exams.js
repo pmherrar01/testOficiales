@@ -22,15 +22,16 @@ async function fetchQuestionsByIds(ids) {
   return ids.map((id) => byId.get(id)).filter(Boolean)
 }
 
-async function getExamDetail(examId) {
-  const [[exam]] = await pool.query('SELECT * FROM exams WHERE id = ?', [examId])
+async function getExamDetail(examId, userId) {
+  const [[exam]] = await pool.query('SELECT * FROM exams WHERE id = ? AND user_id = ?', [examId, userId])
   if (!exam) return null
 
   const [eqRows] = await pool.query(
     'SELECT * FROM exam_questions WHERE exam_id = ? ORDER BY position',
     [examId]
   )
-  const questionRows = await fetchQuestionsByIds(eqRows.map((r) => r.question_id))
+  const questionIds = eqRows.map((r) => r.question_id)
+  const questionRows = await fetchQuestionsByIds(questionIds)
   const questionById = new Map(questionRows.map((q) => [q.id, q]))
 
   if (!exam.finished_at) {
@@ -85,12 +86,14 @@ async function getExamDetail(examId) {
 // POST /api/exams  { numQuestions, mode }
 examsRouter.post('/', async (req, res, next) => {
   try {
+    const userId = req.user.id
     const mode = req.body.mode === 'fallos' ? 'fallos' : 'normal'
     let questionRows
 
     if (mode === 'fallos') {
       const [failedRows] = await pool.query(
-        'SELECT q.* FROM failed_questions f JOIN questions q ON q.id = f.question_id'
+        'SELECT q.* FROM failed_questions f JOIN questions q ON q.id = f.question_id WHERE f.user_id = ?',
+        [userId]
       )
       if (failedRows.length === 0) {
         return res.status(400).json({ error: 'No hay preguntas falladas para repasar.' })
@@ -110,14 +113,14 @@ examsRouter.post('/', async (req, res, next) => {
     }
 
     const [examResult] = await pool.query(
-      'INSERT INTO exams (mode, num_questions) VALUES (?, ?)',
-      [mode, questionRows.length]
+      'INSERT INTO exams (user_id, mode, num_questions) VALUES (?, ?, ?)',
+      [userId, mode, questionRows.length]
     )
     const examId = examResult.insertId
 
     let position = 0
     for (const q of questionRows) {
-      const optionOrder = shuffleOptionOrder()
+      const optionOrder = shuffleOptionOrder(q)
       await pool.query(
         'INSERT INTO exam_questions (exam_id, question_id, position, option_order) VALUES (?, ?, ?, ?)',
         [examId, q.id, position, optionOrder]
@@ -125,7 +128,7 @@ examsRouter.post('/', async (req, res, next) => {
       position += 1
     }
 
-    const detail = await getExamDetail(examId)
+    const detail = await getExamDetail(examId, userId)
     res.status(201).json(detail)
   } catch (err) {
     next(err)
@@ -135,7 +138,7 @@ examsRouter.post('/', async (req, res, next) => {
 // GET /api/exams/:id
 examsRouter.get('/:id', async (req, res, next) => {
   try {
-    const detail = await getExamDetail(Number(req.params.id))
+    const detail = await getExamDetail(Number(req.params.id), req.user.id)
     if (!detail) return res.status(404).json({ error: 'Examen no encontrado.' })
     res.json(detail)
   } catch (err) {
@@ -147,11 +150,12 @@ examsRouter.get('/:id', async (req, res, next) => {
 examsRouter.post('/:id/submit', async (req, res, next) => {
   try {
     const examId = Number(req.params.id)
-    const [[exam]] = await pool.query('SELECT * FROM exams WHERE id = ?', [examId])
+    const userId = req.user.id
+    const [[exam]] = await pool.query('SELECT * FROM exams WHERE id = ? AND user_id = ?', [examId, userId])
     if (!exam) return res.status(404).json({ error: 'Examen no encontrado.' })
 
     if (exam.finished_at) {
-      const detail = await getExamDetail(examId)
+      const detail = await getExamDetail(examId, userId)
       return res.json(detail)
     }
 
@@ -177,12 +181,12 @@ examsRouter.post('/:id/submit', async (req, res, next) => {
       )
 
       if (isCorrect) {
-        await pool.query('DELETE FROM failed_questions WHERE question_id = ?', [q.id])
+        await pool.query('DELETE FROM failed_questions WHERE user_id = ? AND question_id = ?', [userId, q.id])
       } else {
         await pool.query(
-          `INSERT INTO failed_questions (question_id, fail_count) VALUES (?, 1)
+          `INSERT INTO failed_questions (user_id, question_id, fail_count) VALUES (?, ?, 1)
            ON DUPLICATE KEY UPDATE fail_count = fail_count + 1, last_failed_at = CURRENT_TIMESTAMP`,
-          [q.id]
+          [userId, q.id]
         )
       }
     }
@@ -196,7 +200,7 @@ examsRouter.post('/:id/submit', async (req, res, next) => {
       examId,
     ])
 
-    const detail = await getExamDetail(examId)
+    const detail = await getExamDetail(examId, userId)
     res.json(detail)
   } catch (err) {
     next(err)

@@ -1,0 +1,2427 @@
+{
+  "oficialesVF": [
+    {
+      "statement": "El entrenador A solicita un tiempo muerto y, a continuación, B1 comete su quinta falta personal. La oportunidad de tiempo muerto no comenzará hasta que haya concluido la comunicación de la falta a la mesa de oficiales y haya entrado al terreno de juego un sustituto de B1.",
+      "isTrue": true,
+      "reference": "Ejemplo 18/19-10 IO",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "Se sanciona falta técnica a A5 y, antes de lanzarse el tiro libre, el equipo B quiere efectuar sustituciones. El equipo B podrá sustituir como máximo a dos jugadores antes del lanzamiento del tiro libre.",
+      "isTrue": false,
+      "reference": "Arts. 19.2.1 y 19.2.2 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "El partido comienza oficialmente cuando el balón sale de las manos del árbitro al administrar el salto entre dos inicial.",
+      "isTrue": true,
+      "reference": "Art. 9.1 RJ",
+      "category": "Reloj de partido",
+      "difficulty": "facil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "El oficial de mesa encargado de hacer sonar su señal para notificar un tiempo muerto será siempre el Cronometrador, ya que es el único oficial autorizado para detener el reloj de partido.",
+      "isTrue": false,
+      "reference": "Arts. 18.3.2 y 18.3.4 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "Se sanciona falta técnica a A5 y, antes de lanzarse el tiro libre, el equipo B quiere efectuar sustituciones. El equipo B podrá sustituir a los cinco jugadores.",
+      "isTrue": true,
+      "reference": "Arts. 19.2.1 y 19.2.2 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "El equipo A presenta a su debido tiempo la lista del equipo al anotador, pero por error se omite el nombre de un jugador en el acta, hecho que se descubre después del comienzo del partido. El equipo A perderá automáticamente el partido por presentar una lista de equipo incompleta.",
+      "isTrue": false,
+      "reference": "Ejemplo 7-2 IO",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 1
+    },
+    {
+      "statement": "A1 lanza el balón en un tiro a cesto y, cuando el balón está en el aire y quedan 10 segundos en el reloj de lanzamiento, se sanciona una falta defensiva de B2 sobre A2, siendo esta la segunda falta del equipo B en el cuarto; el balón entra en la canasta. La canasta de A1 es válida y se concede un saque al equipo A desde el lugar más próximo a donde se cometió la falta, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-29 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 1
+    },
+    {
+      "statement": "A1 comete su quinta falta personal y es sustituido por A8, pero el equipo arbitral no informa a A1 de que es un jugador excluido. Posteriormente A1 entra de nuevo al partido y recibe una falta cuando está lanzando a canasta, tiro que no convierte; en ese momento los árbitros se dan cuenta de que la quinta falta no había sido comunicada a A1. El partido continuará con A1 en pista hasta el siguiente tiempo muerto, momento en el que deberá ser sustituido obligatoriamente.",
+      "isTrue": false,
+      "reference": "Ejemplo 36-14 IO",
+      "category": "Faltas y participación irregular",
+      "difficulty": "dificil",
+      "sourcePage": 2
+    },
+    {
+      "statement": "En el minuto 10 del cuarto cuarto, A1 convierte una canasta y el árbitro hace sonar su silbato para secar la cancha. Si hubiese alguna solicitud de tiempo muerto en ese momento, podría concederse a cualquiera de los dos equipos.",
+      "isTrue": true,
+      "reference": "Art. 18.2.3 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 2
+    },
+    {
+      "statement": "Durante el salto inicial, uno de los saltadores comete violación cuando el reloj marca 10:00. Antes del saque, se descubre que uno de los jugadores en cancha del equipo B no forma parte del quinteto inicial. Ese jugador deberá abandonar inmediatamente el terreno de juego y ser sustituido por uno de los titulares anunciados.",
+      "isTrue": false,
+      "reference": "Art. 9.1 RJ y Ejemplo 7-4 IO",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 2
+    },
+    {
+      "statement": "En un saque de posesión alterna, se debe cambiar el sentido de la flecha de posesión cuando termina dicho saque, según lo establecido en las reglas.",
+      "isTrue": true,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 2
+    },
+    {
+      "statement": "Una competición decide incluir tiempos muertos para los medios de comunicación conforme a las reglas de juego, cuya duración puede ser de 100 segundos.",
+      "isTrue": false,
+      "reference": "E.1 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "facil",
+      "sourcePage": 2
+    },
+    {
+      "statement": "Un jugador descalificado debe ser sustituido antes de que transcurran 30 segundos.",
+      "isTrue": true,
+      "reference": "Art. 19.3.6 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 2
+    },
+    {
+      "statement": "El balón se encuentra en el aire tras un lanzamiento de A10 a canasta cuando suena la señal del reloj de lanzamiento; después de rebotar en el aro, el balón queda encajado entre el aro y el tablero, mientras la flecha de alternancia señala hacia el cesto del equipo B. El partido continuará mediante un saque para el equipo A, con 24 segundos en el reloj de lanzamiento, sin que se produzca cambio en la flecha de alternancia tras el saque.",
+      "isTrue": false,
+      "reference": "Art. 29.1.2 RJ y Ejemplo 12-14 IO",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 2
+    },
+    {
+      "statement": "A1 lanza a canasta en el minuto 6 del primer cuarto y los árbitros sancionan violación de interposición ofensiva. Se puede conceder tiempo muerto y sustituciones a cualquiera de los dos equipos.",
+      "isTrue": true,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 3
+    },
+    {
+      "statement": "Si el capitán de un equipo está actuando como entrenador y se halla en pista en el momento en que desea solicitar un tiempo muerto, debe realizar dicha solicitud al árbitro más próximo a él en ese momento, quien trasladará la solicitud a la mesa de oficiales.",
+      "isTrue": false,
+      "reference": "Arts. 7.9 y 18.3.1 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "facil",
+      "sourcePage": 3
+    },
+    {
+      "statement": "En un pase de A1 a A2, el balón golpea en B2 y después toca el aro; A3 obtiene el control del balón. El reloj de lanzamiento se reiniciará a 14 segundos tan pronto como A3 obtenga dicho control.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 3
+    },
+    {
+      "statement": "El balón se encaja entre el aro y el tablero durante el juego vivo, fuera de la ejecución de tiros libres, no es una situación de salto.",
+      "isTrue": false,
+      "reference": "Art. 12.3 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 3
+    },
+    {
+      "statement": "Durante el salto entre dos inicial, el saltador A1 comete violación por tocar el balón antes de tiempo; en el saque posterior, el equipo B comete violación de campo atrás cuando el cronómetro muestra 9:59. En ese momento, todavía no se ha puesto la flecha de alternancia, el reloj de partido estará a 10:00 y el reloj de lanzamiento a 14 segundos.",
+      "isTrue": true,
+      "reference": "Arts. 49.2 y 50.4 RJ y Situación 12-1 IO",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 3
+    },
+    {
+      "statement": "Se sanciona a A1 con una falta descalificante por abusar verbalmente de un árbitro. En su camino hacia el vestuario, A1 empuja a B1 de una forma que encaja con el criterio de una falta antideportiva. Se debe sancionar el empujón como falta antideportiva, concediendo dos tiros libres y posesión del balón al equipo B.",
+      "isTrue": false,
+      "reference": "Ejemplo 38-10 IO",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 3
+    },
+    {
+      "statement": "A4 controla el balón en su pista delantera. Cuando quedan 10 segundos en el reloj de lanzamiento, el balón sale fuera y no hay acuerdo sobre qué equipo debe sacar, por lo que se aplica la regla de la posesión alterna y la flecha indica balón para el equipo A. El reloj de lanzamiento mostrará 10 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-11 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 4
+    },
+    {
+      "statement": "En un saque de posesión alterna, se debe cambiar el sentido de la flecha de posesión en el instante en que el árbitro entrega el balón al jugador que va a ejecutar dicho saque.",
+      "isTrue": false,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 4
+    },
+    {
+      "statement": "Cuando se sanciona una falta descalificante a un acompañante de equipo que entra al terreno de juego durante un enfrentamiento sin participar activamente, en el acta se indica añadiendo una B rodeada de una circunferencia en la casilla de faltas del entrenador.",
+      "isTrue": true,
+      "reference": "Apéndice B RJ",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 4
+    },
+    {
+      "statement": "Durante un tiempo muerto, el sustituto A6 informa al cronometrador de que va a sustituir al jugador A1. Se considera que la sustitución se ha producido cuando finaliza el tiempo muerto y el balón vuelve a estar vivo para reanudar el juego.",
+      "isTrue": false,
+      "reference": "Art. 4.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 4
+    },
+    {
+      "statement": "Cuando quedan 26 segundos para el final del partido, con el marcador A 71 - B 72, el equipo A obtiene el control del balón y regatea en su pista delantera durante 20 segundos, momento en el que los árbitros detienen el juego debido a que cae una botella de agua en el terreno de juego. El juego se reanudará mediante un saque del equipo A con 4 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-22 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 4
+    },
+    {
+      "statement": "Se produce un enfrentamiento y tres sustitutos del equipo A son descalificados por abandonar la zona de banquillo e intervenir en el enfrentamiento. La situación se penaliza con una sola falta descalificante conjunta al banquillo, sin faltas técnicas adicionales, equivalente a 2 tiros libres y posesión.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Faltas técnicas y descalificantes",
+      "difficulty": "dificil",
+      "sourcePage": 4
+    },
+    {
+      "statement": "A5, que aún no ha participado en el encuentro pero figura inscrito en el acta, es sancionado durante el descanso con una falta técnica, que se anotará en su casillero y contará como falta de equipo en el tercer cuarto.",
+      "isTrue": true,
+      "reference": "Art. 41.1.2 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 5
+    },
+    {
+      "statement": "A3 tiene que sacar de fondo mediante la flecha de posesión alterna, y A2 extiende sus manos sobre la línea de fondo antes de que el balón haya salido de las manos de A3. Debe sancionarse violación de A2, y la flecha se mantiene a favor del equipo A porque A2 no llegó a tocar el balón.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-22 IO",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 5
+    },
+    {
+      "statement": "A1 regatea el balón en pista delantera cuando B2 comete falta antideportiva sobre A2, con el reloj de lanzamiento marcando 6 segundos. Tras los tiros libres correspondientes, el equipo A efectuará un saque desde su línea de saque en pista delantera, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 5
+    },
+    {
+      "statement": "Durante el salto inicial, con el reloj de partido marcando 10:00, uno de los saltadores comete violación. Antes del saque correspondiente se descubre que uno de los jugadores en cancha del equipo B no forma parte del quinteto inicial, por lo que se anula el salto inicial y se repite con el quinteto inicial correcto en cancha.",
+      "isTrue": false,
+      "reference": "Art. 9.1 RJ y Ejemplo 7-4 IO",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 5
+    },
+    {
+      "statement": "El saque de posesión alterna finaliza cuando el jugador que lo efectúa comete violación de 5 segundos.",
+      "isTrue": true,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 5
+    },
+    {
+      "statement": "El lanzamiento de A1 para una canasta de campo está en el aire cuando suena la señal del reloj de lanzamiento, y a continuación se sanciona a A2 con una falta técnica; el balón no toca el aro. Después del tiro libre de penalización, el partido se reanudará con un saque de fondo para el equipo A, ya que la falta técnica anula la violación del reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-34 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 5
+    },
+    {
+      "statement": "Durante el salto entre dos inicial, A1 palmea legalmente el balón, y antes de que sea controlado por otro jugador se sanciona una falta técnica a A3. La flecha de alternancia se colocará favorable al equipo A cuando el balón se ponga a disposición del jugador del equipo B que lanzará el tiro libre de penalización.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-5 IO",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 5
+    },
+    {
+      "statement": "Simultáneamente con la señal del final del primer cuarto, con el reloj a 0:00, se sanciona una falta antideportiva de B2 sobre A2. La falta se traslada al inicio del cuarto siguiente y los tiros libres se lanzan antes del salto entre dos, en lugar de producirse un saque.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-8 IO",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 6
+    },
+    {
+      "statement": "Cuando un acompañante de equipo entra al terreno de juego durante un enfrentamiento sin participar activamente y se le sanciona con una falta descalificante, esta se indica en el acta añadiendo una B rodeada de una circunferencia en la casilla de faltas del entrenador.",
+      "isTrue": true,
+      "reference": "",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 6
+    },
+    {
+      "statement": "B11 comete falta antideportiva sobre A4 y se conceden dos tiros libres a A4, pero en su lugar es A6 quien los lanza, convirtiendo ambos; el error se descubre después del segundo tiro libre convertido. Se anula solo el segundo tiro libre convertido y se concede un saque de fondo al equipo A.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 6
+    },
+    {
+      "statement": "Por error, A2 lanza los 2 tiros libres que tenía que haber ejecutado A1. Después de su segundo tiro libre, el balón rebota en el aro y B1 consigue el rebote, y la jugada termina con una canasta de B2. Antes de que el balón esté a disposición de un jugador del equipo A para el saque, los árbitros descubren el error: se trata de un error corregible, por lo que se cancelan los tiros libres y sacará el equipo A desde la línea de fondo, como corresponde tras canasta encajada, con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 44.3.3 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 6
+    },
+    {
+      "statement": "Tras señalar una falta a la mesa de oficiales se produce una sustitución. El sustituto se convierte en jugador en el momento en que el anotador hace sonar la señal indicando que la sustitución ha sido registrada.",
+      "isTrue": false,
+      "reference": "Art. 4.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 6
+    },
+    {
+      "statement": "10 minutos antes del inicio del partido se sanciona una falta antideportiva de B1 sobre A7, que no está confirmado en el quinteto inicial. A7 lanzará 2 tiros libres antes del salto entre dos inicial y no permanecerá en el partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 9-9 IO",
+      "category": "Tiros libres",
+      "difficulty": "media",
+      "sourcePage": 6
+    },
+    {
+      "statement": "A1 está regateando en su pista delantera cuando el reloj de lanzamiento muestra 5 segundos. Se sanciona una falta técnica a B1, seguida de una falta técnica al entrenador de A. Tras cancelar las penalizaciones iguales, el juego se reanudará con un saque para el equipo A y 24 segundos en el reloj de lanzamiento, al haberse detenido el juego por sanciones.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Faltas técnicas",
+      "difficulty": "media",
+      "sourcePage": 7
+    },
+    {
+      "statement": "A5 forma parte del quinteto inicial, pero se lesiona durante el calentamiento y debe ser sustituido; en ese caso, el equipo B tiene derecho a sustituir a un jugador.",
+      "isTrue": true,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 7
+    },
+    {
+      "statement": "A5 palmea el balón en el salto inicial. A4 salta desde su pista delantera, controla el balón en el aire y cae en pista trasera. El juego continúa con 24 segundos en el reloj de lanzamiento, y la flecha de alternancia favorecerá al equipo A.",
+      "isTrue": false,
+      "reference": "Arts. 30.1.2 y 50.1 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 7
+    },
+    {
+      "statement": "A1 bota en su pista delantera cuando se sanciona una falta doble en la pista trasera del equipo A. El partido se reanudará en el reloj de lanzamiento con el tiempo que restaba.",
+      "isTrue": true,
+      "reference": "Ejemplo 28-9 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 7
+    },
+    {
+      "statement": "Un jugador del equipo B lanza a canasta, el balón toca el aro y es recogido por otro jugador del mismo equipo; en ese momento suena la señal del reloj de lanzamiento. Los árbitros deben detener el juego y reiniciar el reloj de lanzamiento a 24 segundos antes de continuar.",
+      "isTrue": false,
+      "reference": "Arts. 29.2.6 y 29.2.7 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 7
+    },
+    {
+      "statement": "En el tercer cuarto se concede un saque al equipo A en su pista delantera. El sacador A1 sostiene el balón cuando B1 mueve su(s) mano(s) sobre la línea limítrofe, con 17 segundos en el reloj de lanzamiento. Debe sancionarse violación de B1, y el saque se repetirá para el equipo A, con 17 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 17-49 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 7
+    },
+    {
+      "statement": "Durante el salto inicial, el saltador palmea legalmente el balón, que sale directamente fuera del terreno de juego. El reloj de lanzamiento mostrará siempre 24 segundos, independientemente del lugar del saque posterior.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-3 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 7
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón. Cuando resta 1.1 segundos en el reloj de partido y estando el balón en las manos de A1, suena la señal del reloj de lanzamiento, y el árbitro sanciona la violación cuando el reloj de partido muestra 0.7 segundos. El juego se reanuda con violación del reloj de lanzamiento y saque para el equipo B, quedando el reloj de partido en 1.1 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-64 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 8
+    },
+    {
+      "statement": "Un jugador que debe efectuar dos tiros libres ha lanzado ya el primero cuando se descubre que está sangrando. Solo puede ser sustituido si su propio entrenador lo solicita expresamente mediante tiempo muerto.",
+      "isTrue": false,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 8
+    },
+    {
+      "statement": "Por error, A2 lanza los 2 tiros libres que tenía que haber ejecutado A1. Después de su segundo tiro libre, el balón rebota en el aro y B1 consigue el rebote, y la jugada termina con una canasta de B2. Antes de que el balón esté a disposición de un jugador del equipo A para el saque, los árbitros descubren el error: se trata de un error corregible, por lo que se cancelan los tiros libres y sacará el equipo A desde la línea de fondo, como corresponde tras canasta encajada, con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 44.3.3 RJ",
+      "category": "Corrección de errores",
+      "difficulty": "dificil",
+      "sourcePage": 9
+    },
+    {
+      "statement": "El balón rebota en el aro tras un lanzamiento de A1 y es controlado por A2. 9 segundos después, el reloj de lanzamiento suena por error y los árbitros detienen el partido. El juego se reanudará con un saque para el equipo A, con 14 segundos en el reloj de lanzamiento, al tratarse de un nuevo control de balón.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-23 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 9
+    },
+    {
+      "statement": "Una falta técnica de un entrenador por su comportamiento personal antideportivo se indicará escribiendo una 'C'. Una segunda falta técnica similar también se indicará mediante una 'C', seguida en el espacio restante de las letras 'GD'.",
+      "isTrue": true,
+      "reference": "B.8.3.3 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 9
+    },
+    {
+      "statement": "Al mismo tiempo que suena el reloj de partido indicando el final del tercer cuarto, se sanciona una falta y se le conceden 2 tiros libres a A4. Ambos equipos podrán solicitar un tiempo muerto y realizar las sustituciones que deseen antes de que A4 lance los tiros libres.",
+      "isTrue": false,
+      "reference": "Situación 18/19-1 IO.",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 9
+    },
+    {
+      "statement": "A1 recibe una falta y se le conceden 2 tiros libres. Tras el primer tiro libre, los árbitros ven que A1 está sangrando. A1 es reemplazado por A6, que lanzará el segundo tiro libre. El equipo B solicita sustituir a 2 jugadores, pero solo puede sustituir a uno de ellos.",
+      "isTrue": true,
+      "reference": "Ejemplo 5-8 IO.",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 9
+    },
+    {
+      "statement": "Un jugador que haya cometido su quinta falta o haya sido descalificado debe ser sustituido antes del siguiente saque de banda o tiro libre, sin límite de tiempo establecido.",
+      "isTrue": false,
+      "reference": "Art. 19.3.6 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 10
+    },
+    {
+      "statement": "El balón se encuentra en el aire tras un lanzamiento de A10 a canasta cuando suena la señal del reloj de lanzamiento. Después de rebotar en el aro, el balón se encaja entre el aro y el tablero, con la flecha de alternancia señalando hacia el cesto de B. El partido continuará con saque para el equipo A, con 14 segundos en el reloj de lanzamiento, y la flecha de alternancia cambiará después de dicho saque.",
+      "isTrue": true,
+      "reference": "Art. 29.1.2 RJ y Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 10
+    },
+    {
+      "statement": "A4 lanza a canasta y, cuando el balón ha salido de sus manos y se encuentra en el aire hacia el cesto, se deja caer simulando una falta y es sancionado con una falta técnica. El reloj de lanzamiento se detendrá en el tiempo que marcaba en el momento de la falta técnica y continuará desde ese punto tras el saque.",
+      "isTrue": false,
+      "reference": "Arts. 50.3 y 50.4 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 10
+    },
+    {
+      "statement": "Durante el partido se descubre que 2 jugadores están jugando con los números cambiados; el partido se detiene en cuanto sea posible, se corrige el problema y se continúa el partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 7-2 IO.",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 10
+    },
+    {
+      "statement": "Quedan 21 segundos en el reloj de lanzamiento cuando A1 saca desde su pista trasera. B3 mueve sus brazos sobre la línea limítrofe, afectando al saque; se trata de una violación de B3, por lo que sacará el equipo A manteniendo los 21 segundos que restaban en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-48 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 10
+    },
+    {
+      "statement": "Una falta descalificante a un acompañante de equipo que entra al terreno de juego durante un enfrentamiento sin participar activamente se indica en el acta añadiendo una B rodeada de una circunferencia en la casilla de faltas del entrenador.",
+      "isTrue": true,
+      "reference": "Apéndice B RJ",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 10
+    },
+    {
+      "statement": "A1 regatea el balón en pista delantera cuando B2 comete falta antideportiva sobre A2 y el reloj de lanzamiento muestra 6 segundos; tras los tiros libres, el equipo B efectuará un saque desde su línea de fondo, con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-20 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 11
+    },
+    {
+      "statement": "Cuando restan 2:09 del cuarto cuarto en el reloj de partido, el entrenador A solicita su primer tiempo muerto de la segunda parte con el partido en juego. Cuando restan 2:00 en el reloj de partido, el balón sale fuera del terreno de juego y se detiene el reloj de partido, y entonces se concede el tiempo muerto al equipo A. El anotador trazará 2 líneas horizontales en el acta en la primera casilla del equipo A, puesto que el tiempo muerto se concedió a falta de 2:00 del cuarto cuarto; el tiempo muerto se anotará en la segunda casilla y el equipo A solo dispondrá de otro tiempo muerto.",
+      "isTrue": true,
+      "reference": "Arts. 35-2 y 50.5 RJ.",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 11
+    },
+    {
+      "statement": "Se administra el salto entre dos inicial y el saltador A4 toca el balón antes de que alcance su máxima altura; se trata de un saque de banda desde pista trasera del equipo B, con 24 segundos en el reloj de lanzamiento, por tratarse de una violación en el salto inicial.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-10 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 11
+    },
+    {
+      "statement": "Durante un saque de A1, B1, en su pista trasera, coloca los brazos por encima de la línea limítrofe e intercepta el pase cuando el reloj de lanzamiento muestra 11 segundos; es violación de B1 y, tras el saque en pista delantera, el equipo A dispondrá de 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-19 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 11
+    },
+    {
+      "statement": "A1 saca desde su pista trasera y pasa el balón a A2, que está en su pista delantera pisando una línea limítrofe; se trata de violación de A2, por lo que sacará el equipo B desde su pista delantera con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-35 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 11
+    },
+    {
+      "statement": "Durante un lanzamiento a canasta de A3, el balón se encaja entre la canasta y el tablero cuando el reloj de lanzamiento indica 17 segundos; se trata de una situación de salto, y el reloj de lanzamiento indicará 14 segundos si saca el equipo A o 24 segundos si saca el equipo B.",
+      "isTrue": true,
+      "reference": "Ejemplos 12-14 y 12-15 IO.",
+      "category": "Situaciones de salto",
+      "difficulty": "dificil",
+      "sourcePage": 11
+    },
+    {
+      "statement": "Simultáneamente con la señal del final del primer cuarto, con el reloj a 0:00, se sanciona una falta antideportiva a B2 sobre A2; los tiros libres de penalización se lanzarán al inicio del cuarto siguiente y el juego se reanudará con salto entre dos en el círculo central.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-8 IO.",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 11
+    },
+    {
+      "statement": "El entrenador A solicita un tiempo muerto y después B1 comete su quinta falta; la oportunidad de tiempo muerto no comenzará hasta que haya concluido la comunicación de la falta a la mesa de oficiales y haya entrado al terreno de juego un sustituto de B1.",
+      "isTrue": true,
+      "reference": "Art. 18.2.3 RJ.",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 12
+    },
+    {
+      "statement": "A1 saca para comenzar el 2º cuarto y comete violación pisando la línea lateral en su pista trasera, traspasándola y pisando también el terreno de juego; se cambia la flecha de sentido y saca el equipo B desde el mismo lugar donde A1 cometió la violación, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-21 IO.",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 12
+    },
+    {
+      "statement": "A2 lanza con fuerza el balón hacia la canasta cuando quedan 10 segundos en el reloj de lanzamiento. El balón golpea en el aro, rebota y es controlado por A4 en su pista trasera, donde recibe una falta de B1, que supone la 3ª falta del equipo B en el cuarto; el reloj de lanzamiento se reseteará a 24 segundos para el saque.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-46 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 12
+    },
+    {
+      "statement": "A1 recibe una falta antideportiva en el segundo cuarto. Lanza el último tiro libre y el balón se encaja entre el aro y el tablero; el partido se reanudará mediante una situación de salto administrada con la flecha de alternancia, al no existir un lanzamiento previo controlado.",
+      "isTrue": false,
+      "reference": "Arts. 12.3 y 37.2.2 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 12
+    },
+    {
+      "statement": "El balón que se encaja entre el aro y el tablero después del segundo tiro libre de una serie de tres NO constituye una situación de salto.",
+      "isTrue": true,
+      "reference": "Art. 12.3 RJ",
+      "category": "Situaciones de salto",
+      "difficulty": "dificil",
+      "sourcePage": 12
+    },
+    {
+      "statement": "A5 palmea el balón en el salto inicial. A4 salta desde su pista delantera, controla el balón en el aire y cae en pista trasera; el juego continuará con 24 segundos en el reloj de lanzamiento y la flecha de alternancia favorecerá al equipo A.",
+      "isTrue": false,
+      "reference": "Arts. 30.1.2 y 50.1 RJ",
+      "category": "Salto entre dos",
+      "difficulty": "media",
+      "sourcePage": 13
+    },
+    {
+      "statement": "Durante el partido se descubre que 2 jugadores están jugando con los números cambiados; el partido se detiene en cuanto sea posible, se corrige el problema y se continúa el partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 7-2 IO",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 13
+    },
+    {
+      "statement": "Quedan 21 segundos en el reloj de lanzamiento cuando A1 saca desde su pista trasera. B3 mueve sus brazos sobre la línea limítrofe, afectando al saque; se trata de una acción legal, ya que B3 no ha sobrepasado la línea limítrofe con los pies, por lo que el juego continúa con normalidad.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-48 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 13
+    },
+    {
+      "statement": "Una falta descalificante a un acompañante de equipo que entra al terreno de juego durante un enfrentamiento sin participar activamente se indica en el acta añadiendo una B rodeada de una circunferencia en la casilla de faltas del entrenador.",
+      "isTrue": true,
+      "reference": "Apéndice B RJ",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 13
+    },
+    {
+      "statement": "A1 regatea el balón en pista delantera cuando B2 comete falta antideportiva sobre A2, con el reloj de lanzamiento marcando 6 segundos. Tras los tiros libres, el equipo A efectuará un saque desde su línea de saque en pista delantera, con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-20 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 13
+    },
+    {
+      "statement": "Cuando restan 2:09 del cuarto cuarto en el reloj de partido, el entrenador A solicita su primer tiempo muerto de la segunda parte con el partido en juego. A falta de 2:00, el balón sale fuera del terreno de juego, se detiene el reloj de partido y se concede entonces el tiempo muerto al equipo A. El anotador trazará 2 líneas horizontales en el acta, en la primera casilla del equipo A, puesto que el tiempo muerto se concedió a falta de 2:00 del cuarto cuarto; el tiempo muerto se anotará en la segunda casilla, por lo que el equipo A solo dispondrá de otro tiempo muerto.",
+      "isTrue": true,
+      "reference": "Arts. 35-2 y 50.5 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 13
+    },
+    {
+      "statement": "Se administra el salto entre dos inicial y el saltador A4 toca el balón antes de que alcance su máxima altura, por lo que se concede saque de banda desde pista trasera del equipo A, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-10 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "Durante un saque de A1, B1, situado en su pista trasera, coloca los brazos por encima de la línea limítrofe e intercepta el pase cuando el reloj de lanzamiento muestra 11 segundos. Se sanciona violación de B1 y, tras el saque en pista delantera, el equipo A dispondrá de 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-19 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "A5 bota el balón y recibe una falta de B7, que supone la 6ª falta de equipo del equipo B. Por error se indica saque de banda en lugar de tiros libres y a continuación A5 es sustituido por A9. Antes de administrar el saque, los árbitros advierten el error, deshacen el cambio para que A5 lance los dos tiros libres, pero A9 no podrá volver a sustituirle en ningún momento posterior del partido.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Sustituciones",
+      "difficulty": "dificil",
+      "sourcePage": 14
+    },
+    {
+      "statement": "A4 controla el balón en su pista delantera cuando se detiene el partido por lesión de B1, caído en el suelo en la pista trasera del equipo A, con el reloj de lanzamiento marcando 11 segundos. La mesa debe corregir el reloj de lanzamiento a 14 segundos.",
+      "isTrue": true,
+      "reference": "",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "A1 lanza el balón a canasta y, cuando el balón está en el aire y quedan 10 segundos en el reloj de lanzamiento, se sanciona una falta defensiva de B2 sobre A2, siendo esta la segunda falta de equipo del equipo B en el cuarto. El balón da en el aro pero no entra en la canasta, por lo que se conceden 2 tiros libres a A2, ya que es la segunda falta de equipo del equipo B en el cuarto.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Faltas de equipo",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "Finaliza un tiempo muerto y uno de los equipos se retrasa en volver al terreno de juego. El árbitro vuelve a avisar al equipo, que sigue sin regresar, sin haber sido avisado previamente de un retraso similar y con tiempos muertos restantes en ese cuarto. Se carga 1 tiempo muerto al entrenador, que durará 1 minuto.",
+      "isTrue": true,
+      "reference": "",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "La penalización de una falta descalificante es siempre la posesión del balón para el equipo contrario, sin derecho a tiros libres.",
+      "isTrue": false,
+      "reference": "Art. 38.3.4 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "media",
+      "sourcePage": 14
+    },
+    {
+      "statement": "El operador manejará el reloj de lanzamiento de forma que deberá detener, pero no reiniciar, la cuenta cuando el mismo equipo que tenía el control del balón deba realizar un saque como consecuencia de una falta doble señalada por los árbitros.",
+      "isTrue": true,
+      "reference": "",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 14
+    },
+    {
+      "statement": "En el tercer cuarto, se concede un saque al equipo A en su pista delantera. El sacador A1 sostiene el balón cuando B1 mueve su(s) mano(s) sobre la línea limítrofe, con 7 segundos en el reloj de lanzamiento. Se sanciona violación de B1 y se concede saque para el equipo A con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-49 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 15
+    },
+    {
+      "statement": "A1 está en su acción de tiro de 3 puntos cuando recibe falta de B1; el balón sale de sus manos, bota en el suelo, en la zona de 2 puntos del equipo A, y entra en la canasta. La canasta no es válida y se conceden 3 tiros libres a A1.",
+      "isTrue": true,
+      "reference": "Ejemplo 16-8 IO",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "El capitán del equipo A dispone, en caso de protesta, de un límite de 15 minutos después del cierre del acta por parte del anotador para firmarla.",
+      "isTrue": false,
+      "reference": "C.2 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "El balón se encuentra en el aire tras un lanzamiento de A10 a canasta cuando suena la señal del reloj de lanzamiento; después de rebotar en el aro, el balón se encaja entre el aro y el tablero, y la flecha de posesión alterna señala hacia el equipo A. El partido continúa con saque para el equipo A, con 14 segundos en el reloj de lanzamiento, y la flecha de posesión alterna se cambiará después de dicho saque.",
+      "isTrue": true,
+      "reference": "Art. 29.1.2 RJ y Ejemplo 12-14 IO",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón. Cuando resta 1.1 segundos y el balón está en las manos de A1, suena la señal del reloj de lanzamiento, y el árbitro sanciona la violación cuando el reloj de partido muestra 0.7 segundos. No hay violación del reloj de lanzamiento, ya que la señal sonó cuando el balón seguía en las manos de A1 y el equipo A mantiene la posesión.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-64 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "Por error, A2 lanza los 2 tiros libres que tenía que haber ejecutado A1; después del segundo tiro libre, el balón rebota en el aro y B1 consigue el rebote, y la jugada termina con una canasta de B2. Antes de que el balón esté a disposición de un jugador del equipo A para el saque, los árbitros descubren el error: se trata de un error corregible, se cancelan los tiros libres y el equipo A sacará desde la línea de fondo como después de canasta encajada, con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 44.3.3 RJ",
+      "category": "Corrección de errores",
+      "difficulty": "dificil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "En un saque de posesión alterna, el sentido de la flecha de posesión debe cambiarse en el mismo momento en que se produce la situación de posesión alterna, antes de administrar el saque.",
+      "isTrue": false,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "Se sanciona una falta técnica C al entrenador del equipo A en el tercer cuarto, tras haber sido ya sancionado con otra C en el segundo cuarto, y a continuación insulta gravemente a los árbitros. Se anotará C1, seguido de GD, y el equipo B dispondrá de 1 tiro libre.",
+      "isTrue": true,
+      "reference": "B.8.3.3 RJ y Situación 38-1 IO",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 15
+    },
+    {
+      "statement": "B1 se lesiona el tobillo y cae al suelo cerca del banquillo del equipo A. El médico del equipo A, considerando que la lesión es grave, entra al terreno de juego para atenderlo, pero B1 se levanta inmediatamente. B1 tiene que ser sustituido, ya que el médico entró al terreno de juego para atenderlo.",
+      "isTrue": false,
+      "reference": "Situación 5-1 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 15
+    },
+    {
+      "statement": "A5 debe lanzar 3 tiros libres. Durante el primero, A6 solicita la sustitución del lanzador y, a su vez, el equipo B solicita sustituir a B7, B8 y B9. Los 3 jugadores del equipo B solicitados podrán ser sustituidos al mismo tiempo que el lanzador.",
+      "isTrue": true,
+      "reference": "Art. 19.2.1 RJ",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 15
+    },
+    {
+      "statement": "Si el entrenador de un equipo no ha solicitado ningún tiempo muerto durante el tercer cuarto y, a falta de 2:00 para el final del cuarto cuarto, tampoco ha solicitado ninguno, dispondrá de 1 tiempo muerto únicamente durante el último cuarto del encuentro.",
+      "isTrue": false,
+      "reference": "Art. 18.2.5 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 16
+    },
+    {
+      "statement": "Cuando A1 controla el balón, lo pierde y pasa a controlarlo B1, el operador reiniciará en todos los casos el reloj de lanzamiento a 24 segundos.",
+      "isTrue": true,
+      "reference": "Situación 29/50-47 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "facil",
+      "sourcePage": 16
+    },
+    {
+      "statement": "A1 recibe una falta y se le conceden 2 tiros libres; tras el primero, los árbitros observan que B1 está sangrando y es reemplazado por B6, momento en el que el equipo A solicita sustituir a 2 jugadores. El equipo A puede sustituir a los 2 jugadores solicitados, igual que el equipo B.",
+      "isTrue": false,
+      "reference": "Ejemplo 5-9 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 16
+    },
+    {
+      "statement": "A7 controla el balón en su pista delantera cuando el reloj de lanzamiento muestra 4 segundos; entonces B1 se lesiona y los árbitros detienen el juego. Al reanudarse el juego, el equipo A dispondrá de 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 50.4 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 16
+    },
+    {
+      "statement": "Se produce un enfrentamiento en el que tres sustitutos del equipo A son descalificados por abandonar la zona de banquillo e intervenir en él; la situación se penaliza con una falta técnica a cada sustituto, sin sanción adicional al entrenador.",
+      "isTrue": false,
+      "reference": "Situación 39-3 IO",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 16
+    },
+    {
+      "statement": "A1 comete su quinta falta personal y es sustituido por A8, pero el equipo arbitral no informa a A1 de que es un jugador excluido. Posteriormente A1 entra al partido y recibe una falta cuando está lanzando a canasta, sin convertir el lanzamiento. En ese momento los árbitros se dan cuenta de la quinta falta no comunicada a A1: será inmediatamente sustituido y no se penalizará su participación irregular, y su sustituto lanzará los tiros libres.",
+      "isTrue": true,
+      "reference": "Ejemplo 36-14 IO",
+      "category": "Faltas y exclusión",
+      "difficulty": "media",
+      "sourcePage": 16
+    },
+    {
+      "statement": "A1 saca desde su pista delantera y el balón sale directamente por la línea de fondo de su pista trasera sin tocar a ningún jugador en la cancha, por lo que el equipo B sacará desde su pista trasera con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-34 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 16
+    },
+    {
+      "statement": "Si el entrenador de un equipo no ha solicitado ningún tiempo muerto durante el tercer cuarto y, a falta de 2:00 para el final del cuarto cuarto, tampoco ha solicitado ninguno, solo dispondrá de dos tiempos muertos durante el último cuarto del encuentro.",
+      "isTrue": true,
+      "reference": "Art. 18.2.5 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 17
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta y el balón entra en el cesto; entonces B2 comete falta sobre A2, la tercera falta del equipo B en el cuarto, por lo que se conceden dos tiros libres a A2 sin reinicio del reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-30 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 17
+    },
+    {
+      "statement": "El equipo A tiene el control del balón en su pista delantera cuando el reloj de lanzamiento muestra 4 segundos; A1 se lesiona y los árbitros detienen el juego, por lo que el equipo A dispondrá de 4 segundos en el reloj de lanzamiento al reanudarse el juego.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-15 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 17
+    },
+    {
+      "statement": "Al mismo tiempo que suena el reloj de partido indicando el final del tercer cuarto, se sanciona una falta y se conceden 2 tiros libres a A4; antes de dichos tiros libres se puede conceder tiempo muerto a cualquiera de los dos equipos, pero no sustitución.",
+      "isTrue": false,
+      "reference": "Situación 18/19-1 IO",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 17
+    },
+    {
+      "statement": "En un pase de A1 a A2, el balón golpea en B2 y después toca el aro; cuando A3 obtiene el control del balón, el reloj de lanzamiento se reiniciará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 17
+    },
+    {
+      "statement": "Durante un saque de A1, B1, situado en su pista trasera, coloca los brazos por encima de la línea limítrofe e intercepta el pase cuando el reloj de lanzamiento muestra 11 segundos: se sanciona violación de B1 y, tras el saque en pista delantera, el equipo A dispondrá de 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-19 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 17
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta con 20 segundos restantes en el reloj de lanzamiento; el balón toca el aro, rebota y A2 obtiene el control del balón en su pista trasera, por lo que el reloj de lanzamiento se reiniciará a 14 segundos en cuanto A2 obtenga dicho control.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 17
+    },
+    {
+      "statement": "El ayudante de entrenador del equipo A solicita un tiempo muerto y, en la siguiente oportunidad, se concede; sin embargo, cuando el entrenador del equipo A informa de que su equipo no lo había solicitado, se concede igualmente el tiempo muerto, pero se sanciona con falta técnica al ayudante de entrenador por la confusión.",
+      "isTrue": false,
+      "reference": "Art. 18.3.1 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 17
+    },
+    {
+      "statement": "A4 tiene que sacar de fondo en su pista delantera cuando quedan 3:04 en el reloj del partido y 0,3 segundos en el reloj de lanzamiento; un compañero de A4 puede recibir el balón y lanzar a canasta dentro de ese tiempo, y si anota, la canasta será válida.",
+      "isTrue": true,
+      "reference": "Situación 16-7 IO",
+      "category": "Reloj de partido",
+      "difficulty": "media",
+      "sourcePage": 17
+    },
+    {
+      "statement": "Cuando restan 2:09 del cuarto cuarto en el reloj de partido, el entrenador A solicita su primer tiempo muerto de la segunda parte con el partido en juego; cuando restan 2:00, el balón sale fuera del terreno de juego, se detiene el reloj de partido y se concede el tiempo muerto al equipo A, que el anotador anotará en la primera casilla del acta, ya que fue solicitado antes de que faltaran 2:00 para el final del cuarto.",
+      "isTrue": false,
+      "reference": "Arts. 35-2 y 50.5 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 17
+    },
+    {
+      "statement": "Cuando un acompañante de equipo entra al terreno de juego durante un enfrentamiento y no participa activamente, la falta descalificante se indica en el acta añadiendo una B rodeada de una circunferencia en la casilla de faltas del entrenador.",
+      "isTrue": true,
+      "reference": "Apéndice B RJ",
+      "category": "Faltas y acta",
+      "difficulty": "media",
+      "sourcePage": 18
+    },
+    {
+      "statement": "B4 comete falta sobre A4, quinta falta del equipo B, y por error se concede saque en vez de los dos tiros libres correspondientes; tras el saque, A5 lanza a canasta y encesta de 3 puntos, y antes de que el balón vuelva a estar vivo los árbitros se percatan del error rectificable, por lo que se cancela el cesto y se repite el saque de banda para el equipo A.",
+      "isTrue": false,
+      "reference": "Art. 44.3.2 RJ",
+      "category": "Corrección de errores",
+      "difficulty": "dificil",
+      "sourcePage": 18
+    },
+    {
+      "statement": "El equipo A tiene la posesión del balón durante 5 segundos cuando se produce un enfrentamiento en el terreno de juego, y los árbitros descalifican a 2 sustitutos de cada equipo por abandonar sus áreas de banquillo; el partido se reanuda con un saque del equipo A desde el lugar más cercano a donde estaba situado el balón cuando comenzó el enfrentamiento, con 19 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 39-2 IO",
+      "category": "Enfrentamientos y acta",
+      "difficulty": "dificil",
+      "sourcePage": 18
+    },
+    {
+      "statement": "Durante el partido se descubre que 2 jugadores están jugando con los números cambiados, ante lo cual se anulan todas las faltas y canastas anotadas a esos jugadores desde el inicio del partido.",
+      "isTrue": false,
+      "reference": "Ejemplo 7-2 IO",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 18
+    },
+    {
+      "statement": "El cronómetro se detiene después de una canasta en los dos últimos minutos del cuarto cuarto y de cualquier prórroga, y también cuando se concede tiempo muerto al equipo que recibe el cesto, en el momento en que todo el balón atraviesa todo el cesto.",
+      "isTrue": true,
+      "reference": "Art. 49.2 RJ y Situación 16-9 IO",
+      "category": "Reloj de partido",
+      "difficulty": "facil",
+      "sourcePage": 18
+    },
+    {
+      "statement": "A7 controla el balón en su pista delantera cuando el reloj de lanzamiento muestra 4 segundos; B1 se lesiona y los árbitros detienen el juego, por lo que el equipo A dispondrá de 4 segundos en el reloj de lanzamiento al reanudarse el juego.",
+      "isTrue": false,
+      "reference": "Art. 50.4 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 18
+    },
+    {
+      "statement": "A1 regatea el balón en pista delantera cuando B2 comete falta antideportiva sobre A2 y el reloj de lanzamiento muestra 6 segundos; tras los tiros libres, el equipo A efectuará un saque desde su línea de saque en pista delantera, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-20 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 18
+    },
+    {
+      "statement": "A1 debe lanzar dos tiros libres y convierte el segundo; cuando el balón acaba de entrar en la canasta y todavía no está a disposición de un sacador, no se trata de una oportunidad ni de tiempo muerto ni de sustitución, al haberse convertido el segundo tiro libre.",
+      "isTrue": false,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ",
+      "category": "Tiempos muertos y sustituciones",
+      "difficulty": "media",
+      "sourcePage": 18
+    },
+    {
+      "statement": "Durante un enfrentamiento, el entrenador principal del equipo A es el único que entra al terreno de juego y participa activamente en el mismo, por lo que en su casilla de faltas se anotará D2.",
+      "isTrue": true,
+      "reference": "Apéndice B",
+      "category": "Faltas y acta",
+      "difficulty": "media",
+      "sourcePage": 18
+    },
+    {
+      "statement": "Un jugador del equipo B introduce de forma intencionada el balón en su propio cesto, por lo que los árbitros deben indicar cesto válido de 2 puntos para el equipo A, al tratarse de un cesto anotado en la canasta contraria.",
+      "isTrue": false,
+      "reference": "Art. 16.2.3 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "Una falta técnica de un entrenador por su comportamiento personal antideportivo se indica escribiendo una C, y una segunda falta técnica similar también se indica mediante una C, seguida en el espacio restante de GD.",
+      "isTrue": true,
+      "reference": "B.8.3.3 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "media",
+      "sourcePage": 19
+    },
+    {
+      "statement": "Un jugador efectúa un saque lateral y el balón queda encajado en los soportes del aro, por lo que los árbitros deben señalar saque para el equipo oponente con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Arts. 12.3, 50.3 y 50.4 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "Si el capitán del equipo A desea firmar el acta en caso de protesta, dispone de un límite de 15 minutos después del final del partido para hacerlo.",
+      "isTrue": true,
+      "reference": "C.2 RJ",
+      "category": "Protestas y acta",
+      "difficulty": "facil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "Quedan 3 décimas de segundo cuando A1 saca de banda en su pista delantera y pasa el balón a A2, que lo hunde directamente en la canasta. Comprobado que cuando el reloj de partido marca 0:00 A2 sigue en contacto con el balón, la canasta es válida, ya que la regla de las 3 décimas de segundo solo se aplica a lanzamientos, no a mates.",
+      "isTrue": false,
+      "reference": "Art. 16.2.5 RJ",
+      "category": "Reloj de partido",
+      "difficulty": "dificil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "A5 forma parte del quinteto inicial del equipo A, pero se lesiona durante el calentamiento y debe ser sustituido antes del inicio del partido; en este caso, el equipo B tiene derecho a sustituir a un jugador.",
+      "isTrue": true,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 19
+    },
+    {
+      "statement": "El balón rebota en el aro tras un lanzamiento de A1 y es controlado por A2. Nueve segundos después, el reloj de lanzamiento suena por error y los árbitros detienen el partido; el juego se reanudará con un salto entre dos, al haberse producido un error del operador del reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-23 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "A4 comete falta sobre B1, que está botando el balón, siendo esta la 5ª falta del equipo A en el cuarto. Por error se concede un saque de banda en lugar de 2 tiros libres a A4, pero antes de que el balón esté a disposición del sacador, los oficiales de mesa hacen sonar su señal y avisan a los árbitros; se trata de un procedimiento correcto por parte de los oficiales de mesa.",
+      "isTrue": true,
+      "reference": "Art. 44.2.1 RJ",
+      "category": "Corrección de errores",
+      "difficulty": "media",
+      "sourcePage": 19
+    },
+    {
+      "statement": "A1 saca desde su pista delantera y el balón sale directamente por la línea de fondo de su pista trasera sin tocar a ningún jugador en cancha; el juego continúa con un saque para el equipo B desde su pista delantera con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-34 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 19
+    },
+    {
+      "statement": "B8 solicita una sustitución mientras A9 lanza a canasta; el balón atraviesa totalmente el aro cuando quedan 2:01 en la prórroga, y el balón todavía no está a disposición del sacador cuando quedan 1:58, por lo que no se puede conceder la sustitución.",
+      "isTrue": true,
+      "reference": "Art. 19.2.2 RJ y Situación 16-9 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 19
+    },
+    {
+      "statement": "A5 palmea el balón en el salto inicial; A4 salta desde su pista delantera, controla el balón en el aire y cae en su pista trasera, por lo que se sanciona violación de campo atrás de A4 y saque para el equipo B.",
+      "isTrue": false,
+      "reference": "Arts. 30.1.2 y 50.1 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 19
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón, y cuando resta 1.3 segundos en el reloj de lanzamiento, A1 lanza a canasta. Con el balón en el aire suena la señal del reloj de lanzamiento; el balón no toca el aro y el árbitro sanciona la violación cuando el reloj de partido muestra 0.7 segundos, por lo que el juego se reanuda con saque para el equipo B con 0.7 segundos en el reloj de partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-63 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 20
+    },
+    {
+      "statement": "Un jugador que debe efectuar dos tiros libres ha lanzado ya el primero cuando se descubre que está sangrando; se detiene el partido y se le concede tiempo para curarse, sin posibilidad de sustitución para ningún equipo.",
+      "isTrue": false,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 20
+    },
+    {
+      "statement": "A4 lanza a canasta cuando restan 18 segundos en el reloj de lanzamiento; el balón golpea en el aro, rebota y vuelve a caer, quedando alojado entre el aro y el tablero, siendo la flecha de posesión alterna favorable al equipo A. En este caso, el reloj de lanzamiento se reseteará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 20
+    },
+    {
+      "statement": "A10 lanza su último tiro libre seguido de rebote. Antes de que el balón salga de sus manos, B4 entra en el área restringida, y antes de que el balón toque en el aro, A10 pisa la línea de tiros libres; el balón no entra en la canasta, y se sanciona violación de A10 únicamente, ya que, al ser el lanzador, tiene prioridad sobre otras violaciones.",
+      "isTrue": false,
+      "reference": "Art. 43.3.3 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 20
+    },
+    {
+      "statement": "Un jugador del equipo B lanza a canasta; el balón toca el aro y es recogido por otro jugador del mismo equipo, momento en el que suena la señal del reloj de lanzamiento. Los árbitros no deben señalar nada, y el juego debe continuar con 14 segundos de posesión en todos los casos.",
+      "isTrue": true,
+      "reference": "Arts. 29.2.6 y 29.2.7 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 20
+    },
+    {
+      "statement": "Un sustituto se convierte en jugador cuando el cronometrador hace sonar su señal para autorizar la sustitución.",
+      "isTrue": false,
+      "reference": "Art. 4.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 20
+    },
+    {
+      "statement": "En el minuto 9 del segundo cuarto, A7 comete su quinta falta personal y es sustituido; en el descanso del encuentro, A7 es sancionado con una falta técnica, que se anotará en el casillero del entrenador A (tipo B) y no contará para las faltas de equipo en el tercer cuarto.",
+      "isTrue": true,
+      "reference": "Art. 40.2 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 20
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta; el balón toca el aro y, en el rebote, A2 comete falta sobre B2, siendo esta la tercera falta del equipo A en el cuarto. El juego se reanuda con tiros libres para el equipo B, al tratarse de la tercera falta de equipo, con el reloj de lanzamiento a 24 segundos.",
+      "isTrue": false,
+      "reference": "Art. 50.3 RJ",
+      "category": "Faltas de equipo",
+      "difficulty": "media",
+      "sourcePage": 21
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta con 20 segundos restantes en el reloj de lanzamiento; el balón toca el aro, rebota y A2, compañero de A1, obtiene el control del balón en su pista trasera. El reloj de lanzamiento se reiniciará a 14 segundos en cuanto A2 obtenga el control del balón.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "facil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "Se sanciona falta técnica C al entrenador del equipo A en el tercer cuarto, tras haber sido sancionado ya con otra C en el segundo cuarto, y a continuación insulta gravemente a los árbitros; la mesa anotará C2, seguido de GD, y el equipo B dispondrá de 2 tiros libres.",
+      "isTrue": false,
+      "reference": "B.8.3.3 RJ y Situación 38-1 IO",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "A1 está lanzando 2 tiros libres en el último minuto del partido; durante el segundo, A1 pisa la línea de tiro libre mientras está lanzando y se sanciona violación. El equipo B solicita un tiempo muerto y, tras el mismo, su entrenador elige sacar en pista delantera, por lo que el juego se reanudará con un saque para el equipo B desde la línea de saque en su pista delantera, enfrente de la mesa de oficiales, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 50.4 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "A7 controla el balón en su pista delantera cuando el reloj de lanzamiento muestra 4 segundos; en ese momento B1 se lesiona y los árbitros detienen el juego. Se concederá un saque de posesión alterna en lugar de continuar con el reloj de lanzamiento, al haberse detenido el juego por lesión.",
+      "isTrue": false,
+      "reference": "Art. 50.4 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 21
+    },
+    {
+      "statement": "El equipo A presenta a su debido tiempo la lista del equipo al anotador, pero por error se omite el nombre de un jugador en el acta, hecho que se descubre después del comienzo del partido; en este caso, no se podrá inscribir al jugador en el acta.",
+      "isTrue": true,
+      "reference": "Ejemplo 7-2 IO",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 21
+    },
+    {
+      "statement": "A10 lanza su último tiro libre seguido de rebote. Antes de que el balón salga de sus manos, B4 entra en el área restringida, y antes de que el balón toque el aro, A10 pisa la línea de tiros libres, sin que el balón llegue a entrar en la canasta; la situación se resuelve con violación de B4 únicamente, ya que entró antes de que A10 pisara la línea, correspondiendo saque para el equipo A.",
+      "isTrue": false,
+      "reference": "Art. 43.3.3 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "Se concede un saque de posesión alterna al equipo B, cuando la flecha debería ser favorable al equipo A; el momento límite para poder corregir este error, descubriéndolo e informando de él, es cuando el balón toca legalmente a un jugador en el terreno de juego.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-7 IO",
+      "category": "Posesión alterna",
+      "difficulty": "dificil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "A8 introduce accidentalmente el balón en su propia canasta; los puntos no serán válidos y se concederá saque al equipo contrario.",
+      "isTrue": false,
+      "reference": "B.11.2 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 21
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón, y cuando resta 1.1 segundos en el reloj de partido, estando el balón en las manos de A1, suena la señal del reloj de lanzamiento; el árbitro sanciona la violación cuando el reloj de partido muestra 0.7 segundos, por lo que el juego se reanuda con saque para el equipo B con 0.7 segundos en el reloj de partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-64 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 24
+    },
+    {
+      "statement": "Al mismo tiempo que suena el reloj de partido indicando el final del tercer cuarto, se sanciona una falta y se conceden 2 tiros libres a A4; antes de los tiros libres, se puede conceder sustitución a ambos equipos, pero no tiempo muerto.",
+      "isTrue": false,
+      "reference": "Situación 18/19-1 IO",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 22
+    },
+    {
+      "statement": "Se sanciona falta técnica a A5 y, antes de lanzarse el tiro libre, el equipo B solicita efectuar sustituciones: podrá sustituir a los cinco jugadores.",
+      "isTrue": true,
+      "reference": "Arts. 19.2.1 y 19.2.2 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 22
+    },
+    {
+      "statement": "A1 debe lanzar dos tiros libres y convierte el segundo. Cuando el balón acaba de entrar en la canasta y todavía no está a disposición de un sacador, se trata de una oportunidad de tiempo muerto, pero no de sustitución.",
+      "isTrue": false,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 22
+    },
+    {
+      "statement": "En el tercer cuarto se concede un saque al equipo A en su pista delantera. El sacador A1 sostiene el balón cuando B1 mueve sus manos sobre la línea limítrofe, con 17 segundos en el reloj de lanzamiento: se trata de violación de B1, por lo que se concede saque para el equipo A manteniendo los 17 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 17-49 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 22
+    },
+    {
+      "statement": "El saque de posesión alterna finaliza cuando el balón toca a cualquier jugador dentro del terreno de juego.",
+      "isTrue": false,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 22
+    },
+    {
+      "statement": "Un jugador del equipo B introduce de forma intencionada el balón en su propio cesto: los árbitros deben señalar cesto no válido y conceder saque desde lateral para el equipo A.",
+      "isTrue": true,
+      "reference": "Art. 16.2.3 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 22
+    },
+    {
+      "statement": "A partir de la hora fijada para el comienzo de un encuentro, hay que esperar 20 minutos para que un equipo presente, al menos, cinco jugadores en pista.",
+      "isTrue": false,
+      "reference": "Art. 20.1 RJ",
+      "category": "Comisario y administración del partido",
+      "difficulty": "facil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta y el balón entra en el cesto; a continuación B2 comete falta sobre A2, siendo esta la tercera falta del equipo B en el cuarto. El juego se reanuda mediante saque para el equipo A en el punto más próximo a la infracción, reiniciándose el reloj de lanzamiento a 14 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-30 IO",
+      "category": "Faltas de equipo",
+      "difficulty": "media",
+      "sourcePage": 23
+    },
+    {
+      "statement": "El balón rebota en el aro tras un lanzamiento de A1 y es controlado por A2. Nueve segundos después, el reloj de lanzamiento suena por error y los árbitros detienen el partido; el juego se reanudará con el equipo A en posesión del balón y con 24 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-23 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "Cuando restan 2:09 del cuarto cuarto en el reloj de partido, el entrenador A solicita su primer tiempo muerto de la segunda parte con el partido en juego. Cuando restan 2:00 en el reloj de partido, el balón sale fuera del terreno de juego, se detiene el reloj y se concede el tiempo muerto al equipo A: el anotador trazará 2 líneas horizontales en el acta en la primera casilla del equipo A, puesto que el tiempo muerto se concedió a falta de 2:00 del cuarto cuarto, el tiempo muerto se anotará en la segunda casilla y el equipo A solo dispondrá de otro tiempo muerto.",
+      "isTrue": true,
+      "reference": "Arts. 35-2 y 50.5 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "A1 comete su quinta falta personal y es sustituido por A8, pero el equipo arbitral no le informa de que es un jugador excluido. Posteriormente A1 vuelve a entrar al partido y recibe una falta mientras lanza a canasta, sin convertirla; en ese momento los árbitros se dan cuenta de la quinta falta no comunicada. A1 lanzará los tiros libres y será inmediatamente sustituido después del último, se haya o no convertido.",
+      "isTrue": false,
+      "reference": "Ejemplo 36-14 IO",
+      "category": "Faltas y exclusión de jugador",
+      "difficulty": "dificil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "Un jugador descalificado debe ser sustituido antes de que transcurran 30 segundos.",
+      "isTrue": true,
+      "reference": "Art. 19.3.6 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "Durante un saque de A1, B1, situado en su pista trasera, coloca los brazos por encima de la línea limítrofe e intercepta el pase cuando el reloj de lanzamiento muestra 11 segundos: no hay violación, ya que B1 no llegó a tocar el balón dentro del terreno de juego.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-19 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 23
+    },
+    {
+      "statement": "Se administra el salto entre dos inicial y el saltador A4 toca el balón antes de que alcance su altura máxima; el juego se reanuda mediante saque de banda desde la pista delantera del equipo B, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-10 IO",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 23
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón. Cuando resta 1.3 segundos en el reloj de lanzamiento, A1 lanza a canasta; con el balón en el aire suena la señal del reloj de lanzamiento, el balón no toca el aro y el árbitro sanciona la violación cuando el reloj de partido muestra 0.7 segundos: no hay violación, ya que el balón fue lanzado antes de que sonara la señal.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-63 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 23
+    },
+    {
+      "statement": "En un pase de A1 a A2, el balón golpea en B2 y después toca el aro; cuando A3 obtiene el control del balón, el reloj de lanzamiento se reiniciará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 24
+    },
+    {
+      "statement": "A4 lanza a canasta cuando restan 10 segundos en el reloj de lanzamiento y el balón se queda directamente alojado entre el aro y el tablero, con la flecha de posesión alterna a favor del equipo A: el reloj de lanzamiento se reseteará a 24 segundos.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 24
+    },
+    {
+      "statement": "Durante el partido se descubre que dos jugadores están jugando con los números cambiados: el partido se detiene en cuanto sea posible, se corrige el problema y se continúa el partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 7-2 IO",
+      "category": "Acta y anotador",
+      "difficulty": "facil",
+      "sourcePage": 24
+    },
+    {
+      "statement": "El equipo A dispone de dos tiros libres con posesión del balón. Durante su ejecución, el entrenador de dicho equipo solicita un tiempo muerto e, inmediatamente después, hace lo mismo el entrenador B; el lanzador convierte el segundo tiro libre, de modo que el tiempo muerto no debe concederse a ninguno de los dos, ya que las solicitudes se realizaron durante la ejecución de los tiros libres.",
+      "isTrue": false,
+      "reference": "Art. 18.2.3 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "media",
+      "sourcePage": 24
+    },
+    {
+      "statement": "A1 recibe una falta y se le conceden 2 tiros libres. Tras el primero, los árbitros observan que B1 está sangrando y es reemplazado por B6; cuando a continuación el equipo A solicita sustituir a 2 jugadores, solo podrá sustituir a uno de ellos.",
+      "isTrue": true,
+      "reference": "Ejemplo 5-9 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 24
+    },
+    {
+      "statement": "A1 está regateando en su pista trasera cuando el reloj de lanzamiento muestra 20 segundos. Se sanciona una falta técnica a B1, seguida de una falta técnica al entrenador del equipo A: no se cancelan las penalizaciones, por lo que el equipo A lanzará un tiro libre por la falta de B1 y el equipo B lanzará otro por la falta del entrenador A.",
+      "isTrue": false,
+      "reference": "Art. 50.2 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 24
+    },
+    {
+      "statement": "El saque de posesión alterna finaliza cuando el jugador que efectúa el saque comete una violación de 5 segundos.",
+      "isTrue": true,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta con 20 segundos restantes en el reloj de lanzamiento; el balón toca el aro, rebota y A2, compañero de A1, obtiene el control del balón en su pista trasera. El reloj de lanzamiento continuará desde los 20 segundos, ya que el mismo equipo mantiene el control.",
+      "isTrue": false,
+      "reference": "Situación 29/50-33 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A partir de la hora fijada para el comienzo de un encuentro, hay que esperar 15 minutos para que un equipo presente, al menos, cinco jugadores en pista.",
+      "isTrue": true,
+      "reference": "Art. 20.1 RJ",
+      "category": "Inicio del partido",
+      "difficulty": "facil",
+      "sourcePage": 25
+    },
+    {
+      "statement": "El cronómetro de partido se detiene después de una canasta convertida solo en los dos últimos minutos del cuarto cuarto, pero nunca en las prórrogas.",
+      "isTrue": false,
+      "reference": "Art. 49.2 RJ y Situación 16-9 IO",
+      "category": "Reloj de partido",
+      "difficulty": "media",
+      "sourcePage": 25
+    },
+    {
+      "statement": "Se considera falta doble si dos jugadores se hacen falta entre sí, pudiendo ser cada falta una falta descalificante y una falta antideportiva.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-5 IO",
+      "category": "Faltas y acta",
+      "difficulty": "media",
+      "sourcePage": 25
+    },
+    {
+      "statement": "En el tercer cuarto se concede un saque de banda al equipo A en su pista delantera. El sacador A1 sostiene el balón cuando B1 mueve su(s) mano(s) sobre la línea limítrofe, restando 7 segundos en el reloj de lanzamiento. Se trata de una acción no sancionable, ya que B1 no ha tocado el balón.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-49 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A5 lanza el primero de sus dos tiros libres, pero antes del segundo se descubre que está sangrando y debe ser sustituido. En ese momento, el equipo B tiene derecho a sustituir a un jugador.",
+      "isTrue": true,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 25
+    },
+    {
+      "statement": "Ocurre una falta antideportiva de A1 sobre B1 en el instante en que el reloj de partido muestra 0:00 al final del primer cuarto. Se cancela la falta antideportiva, ya que el cuarto había terminado.",
+      "isTrue": false,
+      "reference": "Art. 8.8 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A1 controla el balón, lo pierde y a continuación B1 pasa a controlarlo. En todos los casos, el reloj de lanzamiento se reiniciará con 24 segundos.",
+      "isTrue": true,
+      "reference": "Situación 29/50-47 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "facil",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A1 saca desde su pista delantera y el balón sale directamente por la línea de fondo de su pista trasera sin tocar a ningún jugador ni la cancha. El juego se reanuda con el equipo B sacando desde su pista trasera, manteniendo el tiempo de lanzamiento que tenía el equipo A.",
+      "isTrue": false,
+      "reference": "Ejemplo 17-34 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 25
+    },
+    {
+      "statement": "A1 está regateando en su pista trasera cuando el reloj de lanzamiento muestra 20 segundos. Se sanciona una falta técnica a B1, seguida inmediatamente de una falta técnica al entrenador del equipo A. Tras cancelar las penalizaciones iguales, el juego se reanudará con un saque para el equipo A y 20 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 50.2 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "Un jugador efectúa un saque lateral y el balón queda encajado entre los soportes del aro. Los árbitros deben señalar situación de salto entre los dos jugadores más próximos al balón.",
+      "isTrue": false,
+      "reference": "Arts. 12.3, 50.3 y 50.4 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 26
+    },
+    {
+      "statement": "B11 comete falta antideportiva sobre A4. Se conceden dos tiros libres a A4, pero por error es A6 quien los lanza, convirtiendo ambos. El error se descubre después del segundo tiro libre convertido. Se cancelan los dos tiros libres convertidos y el juego se reanuda con un saque para el equipo B.",
+      "isTrue": true,
+      "reference": "Art. 44.3.3 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "El equipo B controla el balón con tan solo 6 segundos de posesión en el reloj de lanzamiento cuando A13 y B9 se empujan mutuamente y se les señalan sendas faltas antideportivas. Al reanudar el juego, el equipo B dispondrá de 24 segundos de posesión, al tratarse de faltas antideportivas dobles.",
+      "isTrue": false,
+      "reference": "Arts. 35.2, 42.2.3 y 50.2 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "A1 está en su acción de tiro de 3 puntos cuando recibe falta de B1. El balón sale de sus manos, bota primero en el suelo (dentro de la zona de 2 puntos) y a continuación entra en la canasta. La canasta no es válida y se conceden 3 tiros libres a A1.",
+      "isTrue": true,
+      "reference": "Ejemplo 16-8 IO",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "Se sanciona una falta técnica a A1 durante el intervalo de juego previo al inicio del partido. El tiro libre de penalización, previo al salto entre dos, lo puede ejecutar cualquier jugador del quinteto inicial del equipo B, elegido por el anotador, según el orden de la hoja de inscripción.",
+      "isTrue": false,
+      "reference": "Art. 7.10 RJ y Ejemplo 9-8 IO",
+      "category": "Tiros libres",
+      "difficulty": "media",
+      "sourcePage": 26
+    },
+    {
+      "statement": "Un jugador que debe efectuar dos tiros libres ya ha lanzado el primero cuando se descubre que está sangrando. Hay que sustituirlo en ese momento; si el otro equipo desea sustituir a un jugador, también puede hacerlo.",
+      "isTrue": true,
+      "reference": "Situación 5-7 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 26
+    },
+    {
+      "statement": "En un saque de posesión alterna, el sentido de la flecha de posesión se debe cambiar en el momento en que se produce cualquier violación durante el saque.",
+      "isTrue": false,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "En el tercer cuarto se concede un saque al equipo A en su pista delantera. El sacador A1 sostiene el balón cuando B1 mueve su(s) mano(s) sobre la línea limítrofe, restando 7 segundos en el reloj de lanzamiento. Se trata de violación de B1, por lo que se concede saque para el equipo A con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 17-49 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "Se produce un enfrentamiento. Tres sustitutos del equipo A son descalificados por abandonar la zona de banquillo e intervenir en el mismo. La situación se penaliza con una falta técnica independiente a cada sustituto, es decir, tres técnicas más la del banquillo.",
+      "isTrue": false,
+      "reference": "Situación 39-3 IO",
+      "category": "Faltas y acta",
+      "difficulty": "dificil",
+      "sourcePage": 26
+    },
+    {
+      "statement": "A4 lanza a canasta cuando restan 10 segundos en el reloj de lanzamiento. El balón golpea en el aro, rebota y queda alojado entre el aro y el tablero. La flecha de posesión alterna favorece al equipo A. Al reanudarse el juego, el reloj de lanzamiento se reseteará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 26
+    },
+    {
+      "statement": "Se considera falta doble si dos jugadores se hacen falta entre sí, pudiendo ser cada falta una falta antideportiva y una falta técnica.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-5 IO",
+      "category": "Faltas y acta",
+      "difficulty": "media",
+      "sourcePage": 27
+    },
+    {
+      "statement": "La penalización de una falta descalificante depende de si el jugador que la recibe está o no en acción de tiro, desde dónde lo intenta y si ha conseguido anotar o no.",
+      "isTrue": true,
+      "reference": "Art. 38.3.4 RJ",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "Se sanciona una falta técnica C al entrenador del equipo A en el tercer cuarto (ya había sido sancionado con otra C en el segundo cuarto). A continuación, el entrenador insulta gravemente a los árbitros. Se anotará únicamente GD, sin registrar la C, ya que la técnica queda absorbida por la descalificante.",
+      "isTrue": false,
+      "reference": "B.8.3.3 RJ y Situación 38-1 IO",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "A4 lanza a canasta cuando restan 18 segundos en el reloj de lanzamiento. El balón golpea en el aro, rebota y vuelve a caer, quedando alojado entre el aro y el tablero. La flecha de alternancia favorece al equipo A. El reloj de lanzamiento se reseteará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 27
+    },
+    {
+      "statement": "Un jugador efectúa un saque lateral y el balón queda encajado entre los soportes del aro. Los árbitros deben señalar saque para el equipo oponente con 24 segundos, sin aplicar la posesión alterna.",
+      "isTrue": false,
+      "reference": "Arts. 12.3, 50.3 y 50.4 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "media",
+      "sourcePage": 27
+    },
+    {
+      "statement": "B4 comete falta sobre A4, la quinta falta de equipo del equipo B. Por error, se concede un saque en lugar de los dos tiros libres a A4. Tras el saque, A5 lanza a canasta y encesta de 3 puntos. Antes de que el balón vuelva a estar vivo, los árbitros se percatan del error rectificable. La canasta de 3 puntos es válida y el juego continúa con saque de fondo para el equipo B.",
+      "isTrue": true,
+      "reference": "Art. 44.3.2 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "El balón se encuentra en el aire tras un lanzamiento de A10 a canasta cuando suena la señal del reloj de lanzamiento. Después de rebotar en el aro, el balón se encaja entre el aro y el tablero. La flecha de alternancia señala hacia el cesto de B. El partido continuará sancionando violación del reloj de lanzamiento al equipo A y concediendo saque al equipo B.",
+      "isTrue": false,
+      "reference": "Art. 29.1.2 RJ y Ejemplo 12-14 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "En un saque de posesión alterna, el sentido de la flecha de posesión se debe cambiar cuando termina el saque de posesión alterna según las reglas.",
+      "isTrue": true,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "Un sustituto se convierte en jugador en el momento en que cruza la línea limítrofe para entrar a la cancha, sin esperar el gesto del árbitro.",
+      "isTrue": false,
+      "reference": "Art. 4.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "A1 está lanzando 2 tiros libres en el último minuto del partido. Durante el segundo, A1 pisa la línea de tiro libre mientras lanza y se sanciona violación. El equipo B solicita un tiempo muerto y, después del mismo, su entrenador elige sacar en pista delantera, por lo que el juego se reanuda con un saque para el equipo B desde la línea de saque en su pista delantera, enfrente de la mesa de oficiales, con 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Art. 50.4 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "Quedan 3 décimas de segundo cuando A1 saca de banda en su pista delantera y pasa el balón a A2, que lo hunde directamente en la canasta. Comprobado que, cuando el reloj de partido marca 0:00, A2 todavía está en contacto con el balón, la canasta de A2 es válida, ya que el balón entró en el cesto antes de que sonara la bocina.",
+      "isTrue": false,
+      "reference": "Art. 16.2.5 RJ",
+      "category": "Reloj de partido",
+      "difficulty": "dificil",
+      "sourcePage": 27
+    },
+    {
+      "statement": "A5 saca de banda en su pista delantera y el balón toca directamente el aro. Antes de que el balón sea tocado o controlado en cancha por cualquier jugador, A2 comete falta sobre B1, siendo la 6ª falta de equipo del equipo A en el cuarto, por lo que el juego se reanuda con un saque de banda para el equipo B.",
+      "isTrue": true,
+      "reference": "Arts. 14.1.3 y 41.2.2 RJ",
+      "category": "Faltas de equipo",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "Durante un lanzamiento a canasta de A3, el balón se encaja entre la canasta y el tablero cuando el reloj de lanzamiento indica 17 segundos, por lo que el juego se reanuda repitiendo el lanzamiento de A3 sin detener el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplos 12-14 y 12-15 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 28
+    },
+    {
+      "statement": "El cronómetro de partido se detiene tras una canasta convertida en los dos últimos minutos del cuarto cuarto y de cualquier prórroga, y si se concede un tiempo muerto al equipo que recibe la canasta, en el momento en que todo el balón atraviesa todo el cesto.",
+      "isTrue": true,
+      "reference": "Art. 49.2 RJ y Situación 16-9 IO",
+      "category": "Reloj de partido",
+      "difficulty": "media",
+      "sourcePage": 28
+    },
+    {
+      "statement": "A1 está en su acción de tiro de 3 puntos cuando recibe falta de B1. El balón sale de sus manos, bota primero en el suelo, dentro de la zona de 2 puntos, y a continuación entra en la canasta, situación que se resuelve dando la canasta por no válida y concediendo 2 tiros libres a A1.",
+      "isTrue": false,
+      "reference": "Ejemplo 16-8 IO",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "El equipo B va a ejecutar dos penalizaciones consecutivas de dos tiros libres y solicita la sustitución de dos jugadores, siendo uno de ellos el lanzador de los primeros tiros libres; el lanzador no convierte el segundo tiro libre de esa primera penalización, por lo que pueden ser sustituidos los dos jugadores solicitados.",
+      "isTrue": true,
+      "reference": "Art. 19.2.2 RJ",
+      "category": "Sustituciones",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "El equipo B se presenta en el terreno de juego con 12 licencias de jugadores, pero a la hora fijada para el comienzo del partido solo hay 4 jugadores presentes, por lo que se declara de inmediato partido perdido por incomparecencia del equipo B.",
+      "isTrue": false,
+      "reference": "Art. 20.1 RJ",
+      "category": "Inicio del partido",
+      "difficulty": "facil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "Durante un saque de A1, B1, situado en su pista trasera, coloca los brazos por encima de la línea limítrofe e intercepta el pase cuando el reloj de lanzamiento muestra 11 segundos, lo que constituye violación de B1; tras el correspondiente saque en pista delantera, el equipo A dispondrá de 14 segundos en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-19 IO",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "A1 lanza a canasta cuando falta 1 minuto para el final del cuarto cuarto; mientras el balón va por el aire suena la señal del reloj de lanzamiento y la canasta acaba entrando, generándose así una oportunidad de tiempo muerto para ambos equipos, pero de sustitución solo para el equipo B.",
+      "isTrue": false,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "Quedan 3 décimas de segundo cuando A1 saca de banda en su pista delantera y pasa el balón a A2, que lo hunde directamente en la canasta. Comprobado que, cuando el reloj de partido marca 0:00, A2 todavía está en contacto con el balón, la canasta de A2 no es válida.",
+      "isTrue": true,
+      "reference": "Art. 16.2.5 RJ",
+      "category": "Reloj de partido",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "Antes de que se palme legalmente el balón durante el salto entre dos inicial entre A1 y B1, A4 entra en el círculo central desde su pista trasera, lo que se resuelve considerando que no hay violación, ya que el salto entre dos aún no se ha ejecutado.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-14 IO",
+      "category": "Reloj de partido",
+      "difficulty": "dificil",
+      "sourcePage": 28
+    },
+    {
+      "statement": "A1 recibe una falta y se le conceden 2 tiros libres. Tras el primer tiro libre, los árbitros ven que A1 está sangrando y es reemplazado por A6, que lanzará el segundo tiro libre. El equipo B solicita sustituir a 2 jugadores, pero solo puede sustituir a uno.",
+      "isTrue": true,
+      "reference": "Ejemplo 5-8 IO.",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón, y cuando resta 1 segundo en el reloj de lanzamiento, A1 lanza a canasta. Con el balón en el aire suena la señal del reloj de lanzamiento, el balón no toca el aro y, tras transcurrir 1.1 segundos en los que el árbitro espera a ver si el equipo contrario consigue un control claro del balón, suena la señal del reloj de partido indicando el final del cuarto, situación que debe resolverse sancionando violación del reloj de lanzamiento y concediendo un saque para el equipo B con 1.1 segundos en el reloj de partido.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-62 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 29
+    },
+    {
+      "statement": "El ayudante de entrenador del equipo A solicita un tiempo muerto y, en la siguiente oportunidad, la mesa de oficiales se lo concede, aunque el entrenador del equipo A informa de que su equipo no lo ha solicitado; el tiempo muerto se concede igualmente al equipo A.",
+      "isTrue": true,
+      "reference": "Art. 18.3.1 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "facil",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A1 debe lanzar dos tiros libres y convierte el segundo; en el momento en que el balón acaba de entrar en la canasta y todavía no está a disposición de un sacador, no existe oportunidad ni de tiempo muerto ni de sustitución, ya que el balón está en juego.",
+      "isTrue": false,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ",
+      "category": "Tiempos muertos y sustituciones",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A1 efectúa un lanzamiento a canasta con 20 segundos restantes en el reloj de lanzamiento; el balón toca el aro, rebota y A2 obtiene el control del balón en su pista trasera, por lo que el reloj de lanzamiento se reiniciará a 14 segundos en cuanto A2 obtenga dicho control.",
+      "isTrue": true,
+      "reference": "Situación 29/50-33 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A5 debe lanzar 3 tiros libres y, durante el primero, A6 solicita sustituir al lanzador; a su vez, el equipo B solicita la sustitución de B7, B8 y B9, de los cuales pueden ser sustituidos 2 al mismo tiempo que el lanzador.",
+      "isTrue": false,
+      "reference": "Art.19.2.1 RJ",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "Si el entrenador de un equipo no ha solicitado ningún tiempo muerto durante el tercer cuarto y, a falta de 2:00 para el final del cuarto cuarto, tampoco ha solicitado ninguno, solo dispondrá de dos tiempos muertos durante el resto del último cuarto del encuentro.",
+      "isTrue": true,
+      "reference": "Art. 18.2.5 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A4 comete falta sobre B1, que está botando el balón, siendo la 5ª falta del equipo A en el cuarto, y por error se concede un saque de banda en lugar de 2 tiros libres. Antes de que el balón esté a disposición del sacador, los oficiales de mesa hacen sonar su señal y avisan a los árbitros del error, pero dicha actuación no es correcta, ya que los oficiales de mesa no pueden interrumpir el partido y el error ya no se puede corregir.",
+      "isTrue": false,
+      "reference": "Art. 44.2.1 RJ.",
+      "category": "Corrección de errores",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A4 lanza a canasta cuando restan 18 segundos en el reloj de lanzamiento; el balón golpea en el aro, rebota y vuelve a caer, quedando alojado entre el aro y el tablero, y la flecha de alternancia favorece al equipo A, por lo que el reloj de lanzamiento se reseteará a 14 segundos.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-14 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 29
+    },
+    {
+      "statement": "A1 recibe una falta y se le conceden 2 tiros libres. Tras el primer tiro libre, los árbitros ven que B1 está sangrando y es reemplazado por B6. El equipo A solicita sustituir a 2 jugadores, y puede sustituir a todos los que desee, al haber una sustitución por lesión en el otro equipo.",
+      "isTrue": false,
+      "reference": "Ejemplo 5-9 IO.",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 29
+    },
+    {
+      "statement": "El saque de posesión alterna finaliza cuando el jugador que lo efectúa comete violación de 5 segundos.",
+      "isTrue": true,
+      "reference": "Art. 12.4.2 RJ",
+      "category": "Posesión alterna",
+      "difficulty": "facil",
+      "sourcePage": 29
+    },
+    {
+      "statement": "Durante el salto inicial, el saltador palmea legalmente el balón, que sale directamente fuera de los límites del terreno de juego, por lo que, tras el saque de banda correspondiente, el reloj de lanzamiento mostrará siempre 14 segundos, al tratarse de la continuación de un salto inicial.",
+      "isTrue": false,
+      "reference": "Ejemplo 12-3 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Durante un lanzamiento a canasta de A3, el balón se encaja entre el aro y el tablero cuando el reloj de lanzamiento indica 17 segundos, situación que se resuelve como salto, en la que el reloj de lanzamiento indicará 14 segundos si saca el equipo A o 24 segundos si saca el equipo B.",
+      "isTrue": true,
+      "reference": "Ejemplos 12-14 y 12-15 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Cuando restan 28 segundos en el reloj de partido en el cuarto cuarto, A1 regatea en su pista delantera. B1 palmea el balón hasta la pista trasera del equipo A, donde A2 obtiene el control del balón. B2 comete falta sobre A2 con 8 segundos en el reloj de lanzamiento. Se concede un tiempo muerto al equipo A, que decide sacar en su pista delantera. El juego se reanudará mediante un saque del equipo A en la línea de saque en pista delantera, enfrente de la mesa de oficiales, con 8 segundos en el reloj de lanzamiento.",
+      "isTrue": false,
+      "reference": "Ejemplo 29/50-58 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Justo después de la señal del final del primer cuarto se sanciona una falta antideportiva a B2 sobre A2. Se lanzarán los tiros libres de penalización antes del cuarto siguiente y a continuación se concederá un saque al equipo A desde pista delantera con 14\" en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-6 IO.",
+      "category": "Faltas antideportivas",
+      "difficulty": "dificil",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Cuando restan 58 segundos en el reloj de partido en el cuarto cuarto, A1 recibe una falta en su pista trasera por parte de B1. El equipo A dispone de 19 segundos en el reloj de lanzamiento. Se trata de la tercera falta del equipo B en el cuarto. Se concede un tiempo muerto al equipo A, cuyo entrenador decide sacar en su pista delantera. El reloj de lanzamiento no se reinicia; el juego se reanuda con los 19 segundos que restaban.",
+      "isTrue": false,
+      "reference": "Arts. 50.2 y 50.4 RJ.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Si la señal del reloj de lanzamiento suena por error mientras un equipo tiene el control del balón en su pista trasera y ningún equipo queda en desventaja, se ignorará la señal y el juego continuará.",
+      "isTrue": true,
+      "reference": "Art. 29.2.7 RJ",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "media",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Un entrenador nunca puede dirigirse a la mesa de oficiales mientras el reloj de partido está en marcha, ni siquiera para pedir un tiempo muerto.",
+      "isTrue": false,
+      "reference": "Art. 18.3.1 RJ",
+      "category": "Tiempos muertos",
+      "difficulty": "facil",
+      "sourcePage": 30
+    },
+    {
+      "statement": "Simultáneamente con la señal del final del primer cuarto (reloj a 0:00) se sanciona una falta antideportiva a B2 sobre A2. Se lanzarán los tiros libres de penalización antes del cuarto siguiente y a continuación se concederá un saque al equipo A desde pista delantera con 14\" en el reloj de lanzamiento.",
+      "isTrue": true,
+      "reference": "Ejemplo 12-8 IO.",
+      "category": "Faltas antideportivas",
+      "difficulty": "dificil",
+      "sourcePage": 31
+    },
+    {
+      "statement": "A6 (que no forma parte del quinteto inicial) es sancionado con una falta técnica por colgarse del aro repetidamente durante la rueda de calentamiento, cinco minutos antes de que comience el partido. Esta falta se clasifica como falta técnica de sustituto y se anota al entrenador como tipo B.",
+      "isTrue": false,
+      "reference": "Arts. 4.1.4 y 36.3.1 RJ",
+      "category": "Faltas técnicas",
+      "difficulty": "media",
+      "sourcePage": 31
+    },
+    {
+      "statement": "El entrenador A solicita un tiempo muerto y, a continuación, B1 comete su quinta falta. La oportunidad de tiempo muerto no comenzará hasta que haya concluido la comunicación de la falta a la mesa de oficiales y haya entrado al terreno de juego un sustituto de B1.",
+      "isTrue": true,
+      "reference": "Ejemplo 18/19-10 IO.",
+      "category": "Tiempos muertos",
+      "difficulty": "dificil",
+      "sourcePage": 31
+    },
+    {
+      "statement": "Ocurre una falta antideportiva de A1 sobre B1 cuando el reloj de partido muestra 0:00 en el primer cuarto. Se anota la falta antideportiva, pero los tiros libres se posponen hasta el descanso.",
+      "isTrue": false,
+      "reference": "Art. 8.8 RJ",
+      "category": "Faltas antideportivas",
+      "difficulty": "media",
+      "sourcePage": 31
+    },
+    {
+      "statement": "Cuando restan 25.1 segundos del segundo cuarto en el reloj de partido, el equipo A obtiene el control del balón. Cuando resta 1.3 segundos en el reloj de lanzamiento, A1 lanza a canasta. El balón no toca el aro y el árbitro sanciona la violación del reloj de lanzamiento cuando el reloj de partido muestra 0.7 segundos. El juego se reanuda mediante saque para el equipo B con 0.7 segundos en el reloj de partido.",
+      "isTrue": true,
+      "reference": "Ejemplo 29/50-63 IO.",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 31
+    },
+    {
+      "statement": "Se descubre que el equipo A está jugando con 6 jugadores en cancha cuando el equipo B tiene el control del balón. No hay que detener el partido; la situación se corrige en la siguiente parada natural del juego.",
+      "isTrue": false,
+      "reference": "Ejemplo 36-6 IO",
+      "category": "Participación irregular",
+      "difficulty": "media",
+      "sourcePage": 31
+    },
+    {
+      "statement": "A1 lanza su último tiro libre y falla; el balón rebota, toca en el aro, es tocado por B1 y termina entrando en la canasta. Se anota como canasta válida de 2 puntos, que se concede al capitán en cancha del equipo A.",
+      "isTrue": true,
+      "reference": "Ejemplo 31-6 IO.",
+      "category": "Acta y anotador",
+      "difficulty": "dificil",
+      "sourcePage": 31
+    },
+    {
+      "statement": "Una sustitución puede cancelarse en cualquier momento hasta que el árbitro haga el gesto para invitar a entrar al sustituto, después de que el anotador haya hecho sonar su señal.",
+      "isTrue": false,
+      "reference": "Art. 19.3.2 RJ",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 31
+    },
+    {
+      "statement": "A12 es sancionado con falta personal (5ª de equipo) y B10, que tiene control del balón, es sancionado con falta técnica. Las sanciones se administran concediendo 1 tiro libre a cualquier jugador del equipo A y a continuación los tiros libres correspondientes al jugador que recibe la falta de A12, seguidos de rebote.",
+      "isTrue": true,
+      "reference": "Art. 36.3.2 RJ y Situación 18/19-12 IO",
+      "category": "Tiros libres",
+      "difficulty": "dificil",
+      "sourcePage": 32
+    },
+    {
+      "statement": "El árbitro de cabeza pone el balón en el suelo a disposición del lanzador de un único tiro libre, ya que este se rehúsa a recibirlo directamente. En ese momento suena la señal del anotador solicitando una sustitución del equipo B. La sustitución puede concederse, porque la señal del anotador siempre detiene el juego de inmediato.",
+      "isTrue": false,
+      "reference": "Art. 19.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 32
+    },
+    {
+      "statement": "A4 ha sido sancionado con su quinta falta personal. Antes de ser informado de que es un jugador excluido, comete una falta antideportiva sobre B5. Esta segunda falta se transforma en falta técnica al entrenador del equipo A, como responsable del jugador excluido.",
+      "isTrue": true,
+      "reference": "Ejemplo 37-15 IO.",
+      "category": "Faltas técnicas",
+      "difficulty": "dificil",
+      "sourcePage": 32
+    },
+    {
+      "statement": "A1 lanza a canasta en el minuto 6 del primer cuarto. Los árbitros sancionan violación de interposición defensiva. Tras esta violación, solo se puede conceder tiempo muerto, pero no sustituciones, a ninguno de los dos equipos.",
+      "isTrue": false,
+      "reference": "Arts. 18.2.3 y 19.2.2 RJ.",
+      "category": "Tiempos muertos y sustituciones",
+      "difficulty": "facil",
+      "sourcePage": 32
+    },
+    {
+      "statement": "Durante el calentamiento antes del partido se sanciona una falta técnica a A4, que es jugador-entrenador de su equipo. Esta falta se anotará en el acta con la letra T.",
+      "isTrue": true,
+      "reference": "Art. 41.1.2 RJ",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 32
+    },
+    {
+      "statement": "Una falta descalificante a un acompañante de equipo que entra al terreno de juego durante un enfrentamiento y no participa activamente se anota en el acta como una falta técnica normal en la casilla de faltas personales del jugador más próximo.",
+      "isTrue": false,
+      "reference": "Apéndice B RJ",
+      "category": "Acta y anotador",
+      "difficulty": "media",
+      "sourcePage": 33
+    },
+    {
+      "statement": "Un sustituto se convierte en jugador cuando el árbitro hace el gesto invitándolo a entrar en el terreno de juego, después de que se informe de la sustitución desde la mesa de oficiales.",
+      "isTrue": true,
+      "reference": "Art. 4.2.3 RJ",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 33
+    },
+    {
+      "statement": "A1 está regateando en su pista trasera cuando el reloj de lanzamiento muestra 20 segundos. Se sanciona una falta técnica a B1, seguida de una falta técnica al entrenador A. No se cancelan las penalizaciones; el equipo B lanza los tiros libres correspondientes y a continuación el juego se reanuda con el reloj de lanzamiento puesto a 24 segundos.",
+      "isTrue": false,
+      "reference": "",
+      "category": "Reloj de lanzamiento",
+      "difficulty": "dificil",
+      "sourcePage": 33
+    },
+    {
+      "statement": "La penalización de una falta descalificante depende de si el jugador que recibe la falta está o no en acción de tiro, desde dónde lo intenta y si ha conseguido anotar o no.",
+      "isTrue": true,
+      "reference": "Art. 38.3.4 RJ",
+      "category": "Faltas descalificantes",
+      "difficulty": "dificil",
+      "sourcePage": 33
+    },
+    {
+      "statement": "Antes de que tenga lugar el salto entre inicial, el entrenador B indica a uno de sus jugadores que solicite una sustitución, ya que ha cometido un error al facilitar el cinco inicial. Durante el mismo se señala violación del saltador B por palmear el balón antes de que haya alcanzado su máxima altura. La sustitución puede concederse, porque el reloj de partido todavía no se ha puesto en marcha.",
+      "isTrue": false,
+      "reference": "Art. 9.1 RJ y Ejemplo 18/19-2 IO",
+      "category": "Sustituciones",
+      "difficulty": "media",
+      "sourcePage": 33
+    }
+  ],
+  "normasVF": [
+    {
+      "statement": "Según el nuevo Artículo 1 (Definición) del Reglamento Oficial de Baloncesto, siempre que el texto reglamentario haga referencia a la figura del \"comisario\", dicha referencia será también aplicable a la figura del \"delegado técnico\".",
+      "isTrue": true,
+      "reference": "Art. 1.1 RO (Cambio 2026)",
+      "sourcePage": 3,
+      "category": "Normas 2026 - Terminología Comisario/Delegado",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según el nuevo Artículo 1 (Definición) del Reglamento Oficial de Baloncesto, la referencia al \"comisario\" solo será aplicable a la figura del \"delegado técnico\" cuando el comisario esté ausente del partido de forma justificada.",
+      "isTrue": false,
+      "reference": "Art. 1.1 RO (Cambio 2026)",
+      "sourcePage": 3,
+      "category": "Normas 2026 - Terminología Comisario/Delegado",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según la nueva normativa, las faltas técnicas de Categoría 1 computan para la descalificación del jugador o del entrenador principal, mientras que las de Categoría 2 no computan para dicha descalificación.",
+      "isTrue": true,
+      "reference": "Art. 36.2.1 (Cambio 2026)",
+      "sourcePage": 9,
+      "category": "Normas 2026 - Categorías de falta técnica y descalificación",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según la nueva normativa, tanto las faltas técnicas de Categoría 1 como las de Categoría 2 computan de igual manera para la descalificación del partido.",
+      "isTrue": false,
+      "reference": "Art. 36.2.1 (Cambio 2026)",
+      "sourcePage": 9,
+      "category": "Normas 2026 - Categorías de falta técnica y descalificación",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si un defensor comete interferencia defensiva durante el último tiro libre, se concederá 1 punto al equipo atacante, además de aplicarse la penalización correspondiente a la falta técnica (Categoría 2) señalada al defensor.",
+      "isTrue": true,
+      "reference": "Art. 36.2.1 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Interferencia defensiva en tiro libre",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si un defensor comete interferencia defensiva durante el último tiro libre, dicho tiro libre debe repetirse y no se concede ningún punto de forma automática al equipo atacante.",
+      "isTrue": false,
+      "reference": "Art. 36.2.1 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Interferencia defensiva en tiro libre",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Toda falta técnica cometida por una persona autorizada a sentarse en el banquillo será una falta de Categoría 1 cuando exista comunicación irrespetuosa o contacto con los árbitros, el comisario, los oficiales de mesa o los adversarios, o cuando se trate de una infracción de carácter procedimental o administrativo.",
+      "isTrue": true,
+      "reference": "Art. 36.2.2 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Falta técnica de banquillo",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Toda falta técnica cometida por una persona autorizada a sentarse en el banquillo será considerada de Categoría 2 cuando exista comunicación irrespetuosa o contacto con los árbitros, el comisario o los oficiales de mesa.",
+      "isTrue": false,
+      "reference": "Art. 36.2.2 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Falta técnica de banquillo",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un jugador será descalificado para el resto del encuentro cuando sea sancionado con dos faltas técnicas de Categoría 1, con dos faltas flagrantes, o con una falta técnica de Categoría 1 y una falta flagrante.",
+      "isTrue": true,
+      "reference": "Art. 36.2.3 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Descalificación de jugador",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un jugador será descalificado para el resto del encuentro únicamente cuando acumule tres faltas técnicas de Categoría 1, sin que las faltas flagrantes computen para la descalificación.",
+      "isTrue": false,
+      "reference": "Art. 36.2.3 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Descalificación de jugador",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El entrenador principal será descalificado para el resto del encuentro cuando sea sancionado con dos faltas técnicas de Categoría 1 tipo 'C' por conducta antideportiva personal, o con tres faltas técnicas de Categoría 1 derivadas de la conducta de personas autorizadas a sentarse en el banquillo.",
+      "isTrue": true,
+      "reference": "Art. 36.2.4 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Descalificación de entrenador principal",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El entrenador principal será descalificado para el resto del encuentro cuando sea sancionado con dos faltas técnicas de Categoría 2 tipo 'C', o con cuatro faltas técnicas de Categoría 1 derivadas de la conducta de las personas del banquillo.",
+      "isTrue": false,
+      "reference": "Art. 36.2.4 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Descalificación de entrenador principal",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Cuando un jugador o el entrenador principal resulte descalificado conforme a lo dispuesto en el artículo 36.2.3 o 36.2.4, la falta técnica que origina la descalificación será la única sanción administrada, sin penalización adicional por la propia descalificación.",
+      "isTrue": true,
+      "reference": "Art. 36.2.5 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Registro de descalificación en el acta",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Cuando un jugador o el entrenador principal resulte descalificado conforme al artículo 36.2.3 o 36.2.4, además de la sanción por la falta técnica que origina la descalificación se debe administrar una penalización adicional específica por la propia descalificación.",
+      "isTrue": false,
+      "reference": "Art. 36.2.5 (Cambio 2026)",
+      "sourcePage": 10,
+      "category": "Normas 2026 - Registro de descalificación en el acta",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si un jugador comete una falta técnica, esta se cargará como falta de jugador independientemente de su categoría y contará como falta de equipo; en cambio, una falta técnica de Categoría 1 cometida por una persona autorizada a sentarse en el banquillo se cargará al entrenador principal y no contará como falta de equipo.",
+      "isTrue": true,
+      "reference": "Art. 36.3.1 (Cambio 2026)",
+      "sourcePage": 11,
+      "category": "Normas 2026 - Penalización y registro en el acta",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si un jugador comete una falta técnica, esta solo contará como falta de equipo cuando sea de Categoría 1; en cambio, una falta técnica de Categoría 1 cometida por una persona del banquillo se cargará al entrenador principal y también contará como falta de equipo.",
+      "isTrue": false,
+      "reference": "Art. 36.3.1 (Cambio 2026)",
+      "sourcePage": 11,
+      "category": "Normas 2026 - Penalización y registro en el acta",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según la nueva normativa (vigente desde el 1 de octubre de 2026), la falta disruptiva no computa para la posible descalificación del partido (GD), mientras que la falta flagrante sí se tiene en cuenta a estos efectos.",
+      "isTrue": true,
+      "reference": "Art. 37 (Cambio 2026)",
+      "sourcePage": 12,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según la nueva normativa (vigente desde el 1 de octubre de 2026), tanto la falta disruptiva como la falta flagrante computan para la posible descalificación del partido (GD).",
+      "isTrue": false,
+      "reference": "Art. 37 (Cambio 2026)",
+      "sourcePage": 12,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "La falta disruptiva se carga al jugador infractor y computa en el número de faltas de equipo.",
+      "isTrue": true,
+      "reference": "Art. 37.2.1 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "La falta disruptiva se carga al jugador infractor, pero no computa en el número de faltas de equipo.",
+      "isTrue": false,
+      "reference": "Art. 37.2.1 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un defensor comete una falta disruptiva sobre un atacante que no se encuentra en acción de tiro; según la nueva regla, la mesa debe conceder 2 tiros libres al jugador que recibió la falta.",
+      "isTrue": true,
+      "reference": "Art. 37.2.2 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un defensor comete una falta disruptiva sobre un atacante que no se encuentra en acción de tiro; según la nueva regla, la mesa debe conceder 1 tiro libre al jugador que recibió la falta.",
+      "isTrue": false,
+      "reference": "Art. 37.2.2 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Tras concederse los tiros libres por una falta disruptiva, el juego se reanuda con un saque desde la línea de saque en pista delantera, frente a la mesa de oficiales.",
+      "isTrue": true,
+      "reference": "Art. 37.2.2 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Tras concederse los tiros libres por una falta disruptiva, el juego se reanuda con un saque desde la línea de fondo en pista trasera, frente al banquillo del equipo infractor.",
+      "isTrue": false,
+      "reference": "Art. 37.2.2 (Cambio 2026)",
+      "sourcePage": 13,
+      "category": "Normas 2026 - Falta disruptiva",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Cuando los árbitros sancionan una falta flagrante, el anotador debe cargarla al jugador infractor y computarla como falta de equipo de su conjunto.",
+      "isTrue": true,
+      "reference": "Art. 38.2.1 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Cuando los árbitros sancionan una falta flagrante, el anotador debe cargarla al jugador infractor, pero esa falta no computa como falta de equipo de su conjunto.",
+      "isTrue": false,
+      "reference": "Art. 38.2.1 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si la falta flagrante se comete sobre A4 mientras este no se encuentra en acción de tiro, al anotador se le deben señalizar 2 tiros libres para A4.",
+      "isTrue": true,
+      "reference": "Art. 38.2.2 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "facil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si A4 se encuentra en acción de tiro cuando B5 le comete una falta flagrante y el balón entra en la canasta, la canasta no es válida y se conceden 2 tiros libres adicionales a A4.",
+      "isTrue": false,
+      "reference": "Art. 38.2.2 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Si A4 se encuentra en acción de tiro cuando B5 le comete una falta flagrante y el balón no entra en la canasta, al anotador se le deben señalizar 2 o 3 tiros libres para A4, según proceda.",
+      "isTrue": true,
+      "reference": "Art. 38.2.2 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Con carácter general, tras los tiros libres concedidos por una falta flagrante el juego se reanuda mediante un saque desde la línea de saque de pista delantera situada frente a la mesa de oficiales.",
+      "isTrue": true,
+      "reference": "Art. 38.2.2 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Tras los tiros libres concedidos por una falta flagrante, el juego se reanuda siempre mediante un salto entre dos en el círculo central, sin importar el momento del partido en que se haya producido la falta.",
+      "isTrue": false,
+      "reference": "Art. 38.2.2 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un jugador que ya tiene registrada en el acta una falta técnica de Categoría 1 quedará descalificado para el resto del partido (GD) si posteriormente se le sanciona con una falta flagrante.",
+      "isTrue": true,
+      "reference": "Art. 38.2.3 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Un jugador que ya tiene registrada en el acta una falta técnica de Categoría 1 no queda descalificado por cometer después una falta flagrante, ya que la nueva norma exige exclusivamente la acumulación de dos faltas flagrantes para decretar la descalificación.",
+      "isTrue": false,
+      "reference": "Art. 38.2.3 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Cuando un jugador resulta descalificado (GD) como consecuencia de la falta flagrante que origina dicha descalificación, esa falta es la única sanción que se administra, sin que proceda anotar una penalización adicional por la descalificación en sí.",
+      "isTrue": true,
+      "reference": "Art. 38.2.4 RJ (Cambio 2026)",
+      "sourcePage": 15,
+      "category": "Normas 2026 - Falta flagrante",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El Apéndice A del documento de cambios FIBA 2026 incorpora nuevas señales arbitrales para el retraso del juego, la falta disruptiva y la falta flagrante, en consonancia con los nuevos tipos y categorías de falta del reglamento.",
+      "isTrue": true,
+      "category": "Normas 2026 - Señales arbitrales hacia la mesa",
+      "difficulty": "facil",
+      "reference": "Apéndice A – Señales de los árbitros (Cambio 2026)",
+      "sourcePage": 16,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El Apéndice A del documento de cambios FIBA 2026 incorpora nuevas señales arbitrales para el tiempo muerto, la sustitución y el salto entre dos, en consonancia con los nuevos tipos y categorías de falta del reglamento.",
+      "isTrue": false,
+      "category": "Normas 2026 - Señales arbitrales hacia la mesa",
+      "difficulty": "facil",
+      "reference": "Apéndice A – Señales de los árbitros (Cambio 2026)",
+      "sourcePage": 16,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "La nueva señal de falta disruptiva se ejecuta en dos tiempos: primero el árbitro levanta un puño cerrado y a continuación muestra la mano con dos dedos en forma de V.",
+      "isTrue": true,
+      "category": "Normas 2026 - Señales arbitrales hacia la mesa",
+      "difficulty": "media",
+      "reference": "Apéndice A – Señal de falta disruptiva (Cambio 2026)",
+      "sourcePage": 16,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "La nueva señal de falta disruptiva se ejecuta en dos tiempos: primero el árbitro cruza ambos puños por encima de la cabeza y a continuación muestra la mano con dos dedos en forma de V.",
+      "isTrue": false,
+      "category": "Normas 2026 - Señales arbitrales hacia la mesa",
+      "difficulty": "media",
+      "reference": "Apéndice A – Señal de falta disruptiva (Cambio 2026)",
+      "sourcePage": 16,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según el nuevo criterio adoptado en el Apéndice B, cuando un jugador comete su falta técnica de categoría 1 (T), el anotador debe rodear con un círculo el código de dicha falta en el acta, ya que computa a efectos de la descalificación del partido (GD).",
+      "isTrue": true,
+      "reference": "Apéndice B - Acta del partido (Cambio 2026)",
+      "sourcePage": 17,
+      "category": "Normas 2026 - Acta del partido",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según el nuevo criterio adoptado en el Apéndice B, el anotador debe rodear con un círculo en el acta el código de la falta técnica de categoría 2 (T) cometida por un jugador, exactamente igual que hace con la falta técnica de categoría 1.",
+      "isTrue": false,
+      "reference": "Apéndice B - Acta del partido (Cambio 2026)",
+      "sourcePage": 17,
+      "category": "Normas 2026 - Acta del partido",
+      "difficulty": "dificil",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El Apéndice B incorpora una nueva anotación, 'BD', para identificar en el acta la falta descalificante cometida por un miembro de banquillo que se considere acompañante del equipo.",
+      "isTrue": true,
+      "reference": "Apéndice B - Acta del partido (Cambio 2026)",
+      "sourcePage": 17,
+      "category": "Normas 2026 - Acta del partido",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El Apéndice B incorpora una nueva anotación, 'BD', para identificar en el acta la falta técnica de categoría 1 cometida por el entrenador principal del equipo.",
+      "isTrue": false,
+      "reference": "Apéndice B - Acta del partido (Cambio 2026)",
+      "sourcePage": 17,
+      "category": "Normas 2026 - Acta del partido",
+      "difficulty": "media",
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según el nuevo apartado F.3.2 del Instant Replay System, durante los últimos 2 minutos del cuarto período y en cada prórroga, el IRS permite determinar si el balón seguía en las manos del jugador que efectuaba un saque en el momento en que el equipo defensor cometió una falta durante dicha situación de saque.",
+      "isTrue": true,
+      "category": "Normas 2026 - Revisión de saque con falta del equipo defensor (F.3.2)",
+      "difficulty": "media",
+      "reference": "Art. F.3.2 IRS (Cambio 2026)",
+      "sourcePage": 19,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Según el nuevo apartado F.3.2 del Instant Replay System, durante los últimos 2 minutos del cuarto período y en cada prórroga, el IRS permite determinar si el balón seguía en las manos del jugador que efectuaba el saque cuando fue el equipo atacante, y no el equipo defensor, el que cometió una falta durante dicha situación de saque.",
+      "isTrue": false,
+      "category": "Normas 2026 - Revisión de saque con falta del equipo defensor (F.3.2)",
+      "difficulty": "media",
+      "reference": "Art. F.3.2 IRS (Cambio 2026)",
+      "sourcePage": 19,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El nuevo apartado F.3.3 del Instant Replay System permite revisar en cualquier momento del partido si, tras haberse cometido una falta, se produjo una violación de interposición o interferencia y si fue correctamente sancionada, ya que un error en este sentido puede afectar directamente al marcador sumando o restando 2 o 3 puntos.",
+      "isTrue": true,
+      "category": "Normas 2026 - Revisión de interposición o interferencia (F.3.3)",
+      "difficulty": "media",
+      "reference": "Art. F.3.3 IRS (Cambio 2026)",
+      "sourcePage": 18,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "El nuevo apartado F.3.3 del Instant Replay System permite determinar si se produjo una violación de interposición o interferencia después de haberse cometido una falta, pero esta revisión solo está permitida durante los últimos 2 minutos del cuarto período y en cada prórroga, igual que otras situaciones revisables mediante IRS.",
+      "isTrue": false,
+      "category": "Normas 2026 - Revisión de interposición o interferencia (F.3.3)",
+      "difficulty": "dificil",
+      "reference": "Art. F.3.3 IRS (Cambio 2026)",
+      "sourcePage": 20,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Las dos nuevas incorporaciones al Instant Replay System (la relativa a la situación de saque del F.3.2 y la relativa a la violación de interposición o interferencia del F.3.3) también son aplicables al procedimiento de Head Coach Challenge (HCC), que puede solicitarse en cualquier momento del partido sin las limitaciones temporales de los artículos F.3.1 y F.3.2.",
+      "isTrue": true,
+      "category": "Normas 2026 - Head Coach Challenge y nuevas revisiones IRS",
+      "difficulty": "media",
+      "reference": "Art. F.4.2 IRS / HCC (Cambio 2026)",
+      "sourcePage": 18,
+      "source": "normas_2026"
+    },
+    {
+      "statement": "Las dos nuevas incorporaciones al Instant Replay System no son aplicables al procedimiento de Head Coach Challenge (HCC), que continúa sujeto a las mismas limitaciones temporales que las revisiones ordinarias del apartado F.3.2.",
+      "isTrue": false,
+      "category": "Normas 2026 - Head Coach Challenge y nuevas revisiones IRS",
+      "difficulty": "media",
+      "reference": "Art. F.4.2 IRS / HCC (Cambio 2026)",
+      "sourcePage": 18,
+      "source": "normas_2026"
+    }
+  ],
+  "counts": {
+    "oficialesVF": 248,
+    "normasVF": 48,
+    "total": 296
+  }
+}

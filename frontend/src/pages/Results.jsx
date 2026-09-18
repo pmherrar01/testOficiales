@@ -41,7 +41,7 @@ export default function Results() {
           <p className="question-text">
             <span className="question-number">{idx + 1}.</span> {q.question}
           </p>
-          <div className="options-list">
+          <div className={`options-list ${q.options.length === 2 ? 'two-options' : ''}`}>
             {q.options.map((opt) => {
               const isSelected = q.selected === opt.letter
               const classNames = [

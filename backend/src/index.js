@@ -3,6 +3,8 @@ import cors from 'cors'
 import 'dotenv/config'
 import { statsRouter } from './routes/stats.js'
 import { examsRouter } from './routes/exams.js'
+import { authRouter } from './routes/auth.js'
+import { requireAuth } from './middleware/auth.js'
 import { pool } from './db/pool.js'
 
 const app = express()
@@ -19,8 +21,9 @@ app.get('/api/health', async (req, res) => {
   }
 })
 
-app.use('/api/stats', statsRouter)
-app.use('/api/exams', examsRouter)
+app.use('/api/auth', authRouter)
+app.use('/api/stats', requireAuth, statsRouter)
+app.use('/api/exams', requireAuth, examsRouter)
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Ruta no encontrada.' })

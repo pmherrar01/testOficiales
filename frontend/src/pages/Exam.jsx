@@ -68,7 +68,7 @@ export default function Exam() {
           <p className="question-text">
             <span className="question-number">{idx + 1}.</span> {q.question}
           </p>
-          <div className="options-list">
+          <div className={`options-list ${q.options.length === 2 ? 'two-options' : ''}`}>
             {q.options.map((opt) => (
               <label
                 key={opt.letter}
